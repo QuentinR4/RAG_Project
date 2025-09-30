@@ -6,36 +6,38 @@ import os
 def main(force_reindex=False):
 	pdf_path = "./RAG/Dataset/HCC_RA_2025-18.07_web.pdf"
 	#question = "De combien sont les émissions du secteur de l'industrie en 2024 ?"
-	question = "De combien sont les émissions du secteur du bâtiment en 2024 ?"
-	print("Chargement du PDF...")
-	t0 = time.time()
-	documents = load_pdf(pdf_path)
-	print(f"PDF chargé ({len(documents)} pages) en {time.time()-t0:.2f}s")
-
-	print("Découpage du texte...")
-	t0 = time.time()
-	docs = split_docs(documents)
-	print(f"Texte découpé ({len(docs)} chunks) en {time.time()-t0:.2f}s")
-
-	print("Création des embeddings...")
-	t0 = time.time()
-	embeddings = create_embeddings()
-	print(f"Embeddings créés en {time.time()-t0:.2f}s")
-
-	print("Chargement ou création du cache vectoriel FAISS...")
-	t0 = time.time()
+	#question = "De combien sont les émissions du secteur du bâtiment en 2024 ?"
+	question = "De combien doit être l'objectif de rénovations performante de LLS par an  ?"
 	cache_path = "./RAG/cache/faiss_index"
 	from langchain_community.vectorstores import FAISS
 	if os.path.exists(cache_path) and not force_reindex:
 		print("Cache FAISS trouvé, chargement...")
+		embeddings = create_embeddings()
 		db = FAISS.load_local(cache_path, embeddings, allow_dangerous_deserialization=True)
+		retriever = db.as_retriever()
+		print("Base vectorielle prête (cache utilisé)")
 	else:
+		print("Chargement du PDF...")
+		t0 = time.time()
+		documents = load_pdf(pdf_path)
+		print(f"PDF chargé ({len(documents)} pages) en {time.time()-t0:.2f}s")
+
+		print("Découpage du texte...")
+		t0 = time.time()
+		docs = split_docs(documents)
+		print(f"Texte découpé ({len(docs)} chunks) en {time.time()-t0:.2f}s")
+
+		print("Création des embeddings...")
+		t0 = time.time()
+		embeddings = create_embeddings()
+		print(f"Embeddings créés en {time.time()-t0:.2f}s")
+
 		print("Création ou recréation de l'index FAISS...")
 		db = FAISS.from_documents(docs, embeddings)
 		db.save_local(cache_path)
 		print("Index FAISS sauvegardé dans le cache.")
-	retriever = db.as_retriever()
-	print(f"Base vectorielle prête en {time.time()-t0:.2f}s")
+		retriever = db.as_retriever()
+		print(f"Base vectorielle prête en {time.time()-t0:.2f}s")
 
 	print("Initialisation du LLM Gemini...")
 	t0 = time.time()

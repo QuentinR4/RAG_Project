@@ -1,19 +1,23 @@
-from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.document_loaders import PyMuPDFLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings  
 from langchain_community.vectorstores import FAISS
-from langchain.chains import RetrievalQA
 import os
 import google.generativeai as genai
 
+
+
+    
 # Fonction pour charger un PDF
 def load_pdf(path):
-    loader = PyPDFLoader(path)
+    loader = PyMuPDFLoader(path)
     return loader.load()
 
 # Fonction pour splitter les documents
 def split_docs(documents, chunk_size=1000, chunk_overlap=200):
-    splitter = CharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    #splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap,separators=["\n\n", "\n", ".", " ", ""])
+    splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap,separators=["\n\n", "\n", " ", ""] 
+)
     return splitter.split_documents(documents)
 
 # Fonction pour créer les embeddings
