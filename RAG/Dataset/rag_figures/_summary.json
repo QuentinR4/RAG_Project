@@ -1,0 +1,2835 @@
+[
+  {
+    "source_page": 101,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_101.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.3b – Émissions de CO₂ brutes et de la biomasse énergie",
+      "type_graphique": "diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions brutes",
+          "tendance": "diminution générale entre 2010 et 2023"
+        },
+        {
+          "label": "CO₂ biomasse",
+          "tendance": "fluctuation avec une légère augmentation globale"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions brutes autour de 500 Mt éqCO₂ en 2010, diminuant à environ 430 Mt éqCO₂ en 2023.",
+        "Émissions de CO₂ biomasse représentant une part croissante des émissions totales au fil des années."
+      ],
+      "resume": "Le graphique présente l'évolution des émissions brutes de CO₂ et des émissions de CO₂ issues de la biomasse énergie entre 2010 et 2023. On observe une tendance générale à la baisse des émissions brutes, tandis que la contribution de la biomasse semble fluctuer mais avec une tendance à l'augmentation sur la période."
+    }
+  },
+  {
+    "source_page": 106,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_106.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.4a – Évolution historique de l'empreinte carbone comparée aux émissions territoriales",
+      "type_graphique": "graphique en courbes",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Empreinte",
+          "tendance": "légère hausse puis baisse irrégulière jusqu'à 2023"
+        },
+        {
+          "label": "Émissions territoriales brutes",
+          "tendance": "baisse continue sur la période"
+        },
+        {
+          "label": "Émissions territoriales brutes (pré-estimation)",
+          "tendance": "stable avec une légère baisse"
+        }
+      ],
+      "valeurs_cles": [
+        "Empreinte en baisse en 2023 (-4,1%)",
+        "Empreinte passée de 10,3 à 9,4 t éqCO₂ par personne entre 2019 et 2023"
+      ],
+      "resume": "Le graphique montre l'évolution de l'empreinte carbone totale et des émissions territoriales brutes en France entre 1990 et 2023 (avec pré-estimation pour 2023). On observe une tendance générale à la baisse des émissions territoriales, tandis que l'empreinte carbone a connu une hausse jusqu'aux années 2000, suivie d'une baisse irrégulière. La période 2019-2023 montre une baisse significative de l'empreinte carbone par personne."
+    }
+  },
+  {
+    "source_page": 107,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_107.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.4b - Comparaison pour l'année 2023, des composantes de l'empreinte et des émissions territoriales",
+      "type_graphique": "Diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Production intérieure",
+          "tendance": null
+        },
+        {
+          "label": "Ménages",
+          "tendance": null
+        },
+        {
+          "label": "Exportations + émissions des non-résidents",
+          "tendance": null
+        },
+        {
+          "label": "Importations hors transport internationaux",
+          "tendance": null
+        },
+        {
+          "label": "Transports internationaux",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Empreinte totale : 362 Mt éqCO₂",
+        "Émissions territoriales : 376 Mt éqCO₂",
+        "Consommation intérieure : 180 Mt éqCO₂",
+        "Émissions directes des ménages : 101 Mt éqCO₂"
+      ],
+      "resume": "Ce graphique compare pour l'année 2023 les composantes de l'empreinte carbone totale de la France avec ses émissions territoriales. L'empreinte est divisée en cinq catégories : production intérieure, ménages, exportations et émissions des non-résidents, importations hors transports internationaux, et transports internationaux. Les émissions territoriales incluent la production intérieure et les émissions des ménages."
+    }
+  },
+  {
+    "source_page": 107,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_107.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Figure 2.4c - Comparaison des dynamiques des émissions importées et intérieures",
+      "type_graphique": "Graphique linéaire",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "base 100 en 2010",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions importées hors transports internationaux",
+          "tendance": "Hausse depuis 2016, avec une baisse en 2018 et 2020, puis une reprise estimée en 2023."
+        },
+        {
+          "label": "Émissions des ménages et production intérieure",
+          "tendance": "Baisse continue depuis 2010."
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions importées ont augmenté depuis 2016.",
+        "Réduction continue des émissions intérieures depuis 2010."
+      ],
+      "resume": "Ce graphique compare l'évolution des émissions importées (hors transports internationaux) et des émissions intérieures (ménages et production) en France, avec une base 100 en 2010. Les émissions intérieures montrent une tendance à la baisse continue, tandis que les émissions importées ont augmenté depuis 2016, avec des fluctuations notables en 2018 et 2020."
+    }
+  },
+  {
+    "source_page": 108,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_108.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.4d - Évolution de l'empreinte entre 2022 et 2023",
+      "type_graphique": "diagramme en barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Empreinte 2022",
+          "tendance": null
+        },
+        {
+          "label": "Ménages",
+          "tendance": "baisse de 4%"
+        },
+        {
+          "label": "Émissions intérieures",
+          "tendance": "baisse de 3%"
+        },
+        {
+          "label": "Émissions importées",
+          "tendance": "baisse de 21%"
+        },
+        {
+          "label": "Empreinte 2023",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Empreinte 2022: 671 Mt éqCO₂",
+        "Empreinte 2023: 644 Mt éqCO₂",
+        "Baisse des émissions intérieures : -4%",
+        "Baisse des émissions importées : -21%"
+      ],
+      "resume": "Ce graphique illustre l'évolution de l'empreinte carbone entre 2022 et 2023, en détaillant les contributions des ménages, des émissions intérieures et des émissions importées. On observe une diminution générale de l'empreinte de 671 Mt éqCO₂ en 2022 à 644 Mt éqCO₂ en 2023. La baisse la plus significative concerne les émissions importées (-21%), suivies par les émissions intérieures (-3%) et la part des ménages (-4%)."
+    }
+  },
+  {
+    "source_page": 109,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_109.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.4e – Transport international 2010-24",
+      "type_graphique": "graphique en courbes",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Aérien international",
+          "tendance": "hausse puis forte baisse puis reprise"
+        },
+        {
+          "label": "Maritime international",
+          "tendance": "légère baisse puis stabilisation et légère hausse"
+        }
+      ],
+      "valeurs_cles": [
+        "Aérien international : environ 16 Mt éqCO₂ en 2010, forte baisse en 2020, reprise à partir de 2021.",
+        "Maritime international : environ 8 Mt éqCO₂ en 2010, légère baisse jusqu'en 2019, puis légère reprise."
+      ],
+      "resume": "La figure 2.4e présente l'évolution des émissions de gaz à effet de serre liées au transport aérien et maritime international entre 2010 et 2024. Le transport aérien montre une tendance à la hausse jusqu'en 2019, suivie d'une forte baisse en 2020, puis une reprise. Le transport maritime connaît une légère baisse sur la période, avec une stabilisation récente et une légère hausse prévue en 2024."
+    }
+  },
+  {
+    "source_page": 115,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_115.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.1a – Émissions du secteur des transports en France depuis 2010, trajectoire SNBC 2 et du projet de SNBC 3",
+      "type_graphique": "graphique linéaire",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO2",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions (Secten ed25)",
+          "tendance": "stable puis en légère baisse"
+        },
+        {
+          "label": "Trajectoire SNBC 2 (ajustée 2025)",
+          "tendance": "en baisse"
+        },
+        {
+          "label": "Trajectoire SNBC 3p (ajustée 2025)",
+          "tendance": "en baisse"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions du secteur des transports en France depuis 2010",
+        "Trajectoire SNBC 2",
+        "Trajectoire SNBC 3"
+      ],
+      "resume": "Ce graphique présente l'évolution des émissions du secteur des transports en France depuis 2010, en comparaison avec les trajectoires SNBC 2 et SNBC 3. Les émissions réelles montrent une relative stabilité suivie d'une légère baisse, tandis que les deux trajectoires prévoient une baisse plus marquée. La période analysée s'étend de 2010 à 2030, avec des données d'émissions pour la période 2010-2023 et des projections pour les années suivantes."
+    }
+  },
+  {
+    "source_page": 116,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_116.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Décomposition de l'évolution des émissions (en Mt CO₂éq) du transport intérieur de voyageurs en France, et comparaison entre la SNBC et les émissions observées sur 2015-2023",
+      "type_graphique": "Graphique en barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Variation des émissions (MtCO₂)",
+          "unite": "MtCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "SNBC",
+          "tendance": null
+        },
+        {
+          "label": "OBSERVÉS",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "SNBC: -3,0 MtCO₂, -11,9 MtCO₂, -0,6 MtCO₂, -1,8 MtCO₂, 3,8 MtCO₂",
+        "OBSERVÉS: -10,5 MtCO₂, -3,8 MtCO₂, -5,4 MtCO₂, -0,7 MtCO₂, 0,6 MtCO₂"
+      ],
+      "resume": "Ce graphique en barres montre la décomposition de l'évolution des émissions de CO₂ éq. pour le transport intérieur de voyageurs en France, comparant les objectifs de la SNBC (Stratégie Nationale Bas-Carbone) avec les émissions observées entre 2015 et 2023. Il décompose les variations en quatre facteurs : la demande de transport, le report modal, le remplissage des véhicules et la consommation énergétique des véhicules, ainsi que l'intensité carbone de l'énergie. Les barres SNBC représentent les objectifs fixés, tandis que les barres OBSERVÉES montrent les réalisations. On observe des écarts significatifs entre les objectifs et la réalité, notamment une baisse des émissions observées plus faible que celle prévue par la SNBC. La décomposition révèle que la demande de transport et le report modal ont contribué à la réduction des émissions dans les deux scénarios, mais avec des contributions différentes. Le remplissage des véhicules et la consommation énergétique des véhicules montrent également des dynamiques divergentes entre les objectifs et les observations."
+    }
+  },
+  {
+    "source_page": 117,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_117.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.1c – Comparaison, sur l'ensemble de leur cycle de vie, des émissions de CO₂ d'une voiture thermique (base 100) et d'une voiture électrique, en France",
+      "type_graphique": "diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Intensité des émissions de CO₂",
+          "unite": "CO₂ eq."
+        }
+      },
+      "series": [
+        {
+          "label": "Production de voiture",
+          "tendance": null
+        },
+        {
+          "label": "Production de la batterie",
+          "tendance": null
+        },
+        {
+          "label": "Utilisation (carburant, maintenance, etc.)",
+          "tendance": null
+        },
+        {
+          "label": "Variabilité selon les études et les hypothèses",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Voiture thermique : 100 (base)",
+        "Voiture électrique à batterie : entre 19 et 55 (moyenne de 36, soit entre 2 et 5 fois moins que la voiture thermique)"
+      ],
+      "resume": "Le graphique compare les émissions de CO₂ sur l'ensemble du cycle de vie d'une voiture thermique (représentée par une base de 100) et d'une voiture électrique en France. Les émissions de la voiture électrique sont significativement plus faibles, se situant en moyenne entre 2 et 5 fois moins que celles de la voiture thermique. Cette réduction est attribuée à la production de la voiture et de la batterie, ainsi qu'à l'utilisation du véhicule. La variabilité des résultats selon les études et les hypothèses est également représentée."
+    }
+  },
+  {
+    "source_page": 139,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_139.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.2a - Émissions du secteur de l'agriculture en France depuis 2010, trajectoire SNBC 2 et du projet de SNBC 3",
+      "type_graphique": "ligne",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions (Secten édition 2025)",
+          "tendance": "descendante"
+        },
+        {
+          "label": "Trajectoire SNBC 2 (ajustée 2025)",
+          "tendance": "descendante"
+        },
+        {
+          "label": "Trajectoire du projet de SNBC 3 (ajustée 2025)",
+          "tendance": "descendante"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions en 2010 autour de 90 Mt éqCO₂",
+        "Diminution progressive des émissions jusqu'en 2030"
+      ],
+      "resume": "Ce graphique présente l'évolution des émissions du secteur agricole en France depuis 2010, avec deux trajectoires prospectives : la trajectoire SNBC 2 et celle du projet de SNBC 3. Les données de référence (Secten édition 2025) montrent une baisse progressive des émissions, tendance qui est maintenue et accentuée par les deux trajectoires futures. La trajectoire SNBC 2 est légèrement supérieure à celle du projet de SNBC 3, indiquant une ambition plus forte pour cette dernière en matière de réduction des émissions."
+    }
+  },
+  {
+    "source_page": 140,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_140.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.2b - Émissions des sous-secteurs de l'agriculture en France depuis 2010",
+      "type_graphique": "graphique en ligne",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": "Année"
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Élevage",
+          "tendance": "stable avec légère baisse"
+        },
+        {
+          "label": "Cultures",
+          "tendance": "stable"
+        },
+        {
+          "label": "Engins",
+          "tendance": "stable avec légère baisse"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions Élevage en légère baisse",
+        "Émissions Cultures stables",
+        "Émissions Engins en légère baisse"
+      ],
+      "resume": "Ce graphique en ligne montre l'évolution des émissions de gaz à effet de serre par sous-secteur agricole en France depuis 2010. On observe une tendance globalement stable pour les cultures et une légère baisse pour l'élevage et les engins sur la période."
+    }
+  },
+  {
+    "source_page": 140,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_140.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Tableau 3.2a - Alignement des indicateurs physiques avec les hypothèses formulées dans le projet de SNBC 3 pour l'agriculture",
+      "type_graphique": "tableau",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": null
+        }
+      },
+      "series": [],
+      "valeurs_cles": [
+        "Taille du cheptel bovin : évolution annuelle moyenne observée -0,27 %/an, tendance attendue -0,21 %/an",
+        "Utilisation d'engrais azoté minéraux : évolution annuelle moyenne observée -98,0 %/an, tendance attendue -52,7 %/an",
+        "Décapitalisation de l'élevage plus forte que prévu",
+        "Diminution plus forte que prévue de l'utilisation d'engrais azotés"
+      ],
+      "resume": "Ce tableau compare les évolutions observées et attendues pour deux indicateurs clés de l'agriculture : la taille du cheptel bovin et l'utilisation d'engrais azotés minéraux. Il met en évidence une décapitalisation du cheptel plus importante que prévue, ainsi qu'une diminution plus marquée de l'usage des engrais azotés, potentiellement liée à une conjoncture de prix élevés. Ces évolutions sont analysées dans le contexte des conditions socio-économiques et des aléas climatiques."
+    }
+  },
+  {
+    "source_page": 163,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_163.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Excédent brut d'exploitation (EBE) par actif non salarié en 2022 par orientation et taille économique.",
+      "type_graphique": "diagramme en bâtons",
+      "axes": {
+        "x": {
+          "label": "Orientation économique",
+          "unite": null
+        },
+        "y": {
+          "label": "EBE/ETP non salarié en milliers d'euros",
+          "unite": "milliers d'euros"
+        }
+      },
+      "series": [
+        {
+          "label": "Grandes cultures",
+          "tendance": null
+        },
+        {
+          "label": "Maraîchage et horticulture",
+          "tendance": null
+        },
+        {
+          "label": "Viticulture",
+          "tendance": null
+        },
+        {
+          "label": "Fruits et autres cultures permanentes",
+          "tendance": null
+        },
+        {
+          "label": "Bovins lait",
+          "tendance": null
+        },
+        {
+          "label": "Bovins viande",
+          "tendance": null
+        },
+        {
+          "label": "Ovins, caprins, et autres herbivores",
+          "tendance": null
+        },
+        {
+          "label": "Porcins, volailles et autres granivores",
+          "tendance": null
+        },
+        {
+          "label": "Polyculture, polyélevage, autres",
+          "tendance": null
+        },
+        {
+          "label": "Ensemble",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Viticulture (Grandes) : ~180",
+        "Grandes cultures (Grandes) : ~110",
+        "Fruits et autres cultures permanentes (Grandes) : ~100",
+        "Polyculture, polyélevage, autres (Grandes) : ~95"
+      ],
+      "resume": "Le graphique montre l'Excédent Brut d'Exploitation (EBE) par actif non salarié en 2022, ventilé par orientation économique et taille de l'exploitation. Les exploitations classées comme \"Grandes\" obtiennent généralement le EBE le plus élevé pour chaque catégorie d'orientation économique, en particulier en viticulture, grandes cultures, fruits et autres cultures permanentes, ainsi qu'en polyculture/polyelevage. L'orientation \"Viticulture\" présente le EBE le plus élevé globalement pour les grandes exploitations."
+    }
+  },
+  {
+    "source_page": 168,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_168.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Émissions du secteur de l'industrie et de la construction en France depuis 2010, trajectoires de la SNBC 2 et du projet de SNBC 3",
+      "type_graphique": "graphique linéaire",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO2",
+          "unite": "Mt éqCO2"
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions (Secten ed25)",
+          "tendance": "baissière"
+        },
+        {
+          "label": "Trajectoire SNBC 2 (ajustée 2025)",
+          "tendance": "baissière"
+        },
+        {
+          "label": "Trajectoire SNBC 3p (ajustée 2025)",
+          "tendance": "baissière"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions industrielles en baisse depuis 2010",
+        "Projection de diminution des émissions pour atteindre les objectifs SNBC 2 et 3"
+      ],
+      "resume": "Ce graphique présente l'évolution des émissions de gaz à effet de serre du secteur de l'industrie et de la construction en France depuis 2010. Il montre également deux trajectoires futures : celle de la SNBC 2 (ajustée pour 2025) et celle du projet de SNBC 3 (ajustée pour 2025). Les émissions actuelles montrent une tendance à la baisse, et les trajectoires proposées indiquent une poursuite de cette diminution pour atteindre les objectifs climatiques fixés."
+    }
+  },
+  {
+    "source_page": 169,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_169.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.3b – Indices de production et d'émissions de l'industrie",
+      "type_graphique": "graphique en courbes",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Indices",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Production",
+          "tendance": "stable puis décroissante"
+        },
+        {
+          "label": "Production pondérée du poids des émissions sous-sectorielles",
+          "tendance": "stable puis décroissante"
+        },
+        {
+          "label": "Émissions de l'industrie",
+          "tendance": "légère augmentation puis forte baisse"
+        }
+      ],
+      "valeurs_cles": [
+        "La production suit une tendance générale à la baisse après 2017.",
+        "Les émissions industrielles ont diminué significativement après 2019."
+      ],
+      "resume": "Le graphique présente l'évolution de la production industrielle et de ses émissions associées entre 2010 et 2024. On observe une stabilité de la production jusqu'en 2017, suivie d'une baisse, tandis que les émissions ont connu une légère hausse avant de chuter drastiquement à partir de 2019."
+    }
+  },
+  {
+    "source_page": 171,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_171.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.3b et c - Évolution des émissions sectorielle et sous-sectorielles à production constante (base 2019)",
+      "type_graphique": "Graphique en lignes",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Indice (base 2019 = 100)",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Secteur de la chimie (25 % des émissions de l'industrie)",
+          "tendance": "Baisse"
+        },
+        {
+          "label": "Secteur des minéraux non-métalliques (24,3 % des émissions de l'industrie)",
+          "tendance": "Stagnation/Légère baisse"
+        },
+        {
+          "label": "Secteur de la métallurgie (22,1 % des émissions de l'industrie)",
+          "tendance": "Stagnation/Légère hausse"
+        },
+        {
+          "label": "Secteur de l'agro-alimentaire (12 % des émissions de l'industrie)",
+          "tendance": "Baisse"
+        },
+        {
+          "label": "Secteur de la construction (6 % des émissions de l'industrie)",
+          "tendance": "Stagnation/Légère hausse"
+        },
+        {
+          "label": "Secteur des biens d'équipement (4,4 % des émissions de l'industrie)",
+          "tendance": "Baisse avec fluctuations"
+        },
+        {
+          "label": "Secteur papier, carton (3,2 % des émissions de l'industrie)",
+          "tendance": "Stagnation/Légère baisse"
+        },
+        {
+          "label": "Secteur des textiles, bois et autres (3 % des émissions de l'industrie)",
+          "tendance": "Baisse"
+        }
+      ],
+      "valeurs_cles": [
+        "Base 2019 = 100",
+        "Secteur de la chimie : forte baisse",
+        "Secteur des minéraux non-métalliques : quasi-stabilité",
+        "Secteur de la métallurgie : légère hausse",
+        "Secteur de l'agro-alimentaire : baisse continue",
+        "Secteur de la construction : évolution relativement stable autour de 100",
+        "Secteur des biens d'équipement : baisse avec un pic en 2017",
+        "Secteur papier, carton : évolution stable",
+        "Secteur des textiles, bois et autres : baisse significative"
+      ],
+      "resume": "Ce graphique présente l'évolution des émissions sectorielles et sous-sectorielles à production constante, avec la base 2019 fixée à 100. On observe des tendances diverses selon les secteurs. Certains, comme la chimie et l'agro-alimentaire, montrent une baisse notable des émissions. D'autres, comme la métallurgie ou la construction, tendent à stagner ou à connaître de légères hausses. Les secteurs des biens d'équipement et des textiles/bois/autres affichent une baisse, le premier avec des fluctuations importantes. La source des données est le HCC d'après Citepa (2025) format Secten et Eurostat."
+    }
+  },
+  {
+    "source_page": 183,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_183.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.4a – Émissions du secteur du bâtiment en France depuis 2010, trajectoire SNBC 2 et du projet de SNBC 3",
+      "type_graphique": "ligne",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions (Secten ed25)",
+          "tendance": "baissière"
+        },
+        {
+          "label": "Trajectoire SNBC 2 (ajustée 2025)",
+          "tendance": "baissière"
+        },
+        {
+          "label": "Trajectoire SNBC 3p (ajustée 2025)",
+          "tendance": "baissière"
+        }
+      ],
+      "valeurs_cles": [
+        "Les émissions du secteur du bâtiment en France depuis 2010 montrent une tendance baissière.",
+        "Les trajectoires SNBC 2 et SNBC 3p prévoient une poursuite de cette baisse."
+      ],
+      "resume": "Ce graphique représente l'évolution des émissions du secteur du bâtiment en France depuis 2010, comparée à deux trajectoires futures (SNBC 2 et SNBC 3p). La série 'Émissions (Secten ed25)' montre une baisse constante au fil des années. Les deux trajectoires futures, 'Trajectoire SNBC 2 (ajustée 2025)' et 'Trajectoire SNBC 3p (ajustée 2025)', indiquent également une tendance à la baisse, avec la trajectoire SNBC 3p semblant anticiper une réduction plus rapide."
+    }
+  },
+  {
+    "source_page": 183,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_183.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Figure 3.4b – Rythme de réduction des émissions du secteur du bâtiment en France entre 2024 et 2028",
+      "type_graphique": "tableau",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Bâtiments",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Rythme constaté en 2019: -4,7 %",
+        "Rythme constaté en 2023: -0,4 %",
+        "Rythme attendu SNBC-2 entre 2024-2028: -1,9 %",
+        "Rythme attendu PROJET SNBC-3 entre 2024-2028: -3,7 %"
+      ],
+      "resume": "Ce tableau présente le rythme de réduction des émissions du secteur du bâtiment en France, comparant les rythmes constatés en 2019 et 2023 avec les rythmes attendus pour la période 2024-2028 selon deux scénarios : SNBC-2 et PROJET SNBC-3. Le rythme constaté en 2023 (-0,4 %) est nettement moins favorable que celui de 2019 (-4,7 %). Les projections indiquent une amélioration attendue, avec un rythme de -1,9 % pour le scénario SNBC-2 et -3,7 % pour le scénario PROJET SNBC-3."
+    }
+  },
+  {
+    "source_page": 186,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_186.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.4d - Schéma simplifié de l'évolution du dispositif des CEE",
+      "type_graphique": "Graphique combiné (barres empilées et ligne)",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "TWh CUMAC",
+          "unite": "TWh CUMAC"
+        }
+      },
+      "series": [
+        {
+          "label": "Classique (CL)",
+          "tendance": null
+        },
+        {
+          "label": "Précarité énergétique",
+          "tendance": null
+        },
+        {
+          "label": "Total",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "54 (P1, 2006-2009)",
+        "447 (P2, 2011-2014)",
+        "850 (P3, 2015-2017)",
+        "2133 (P4, 2018-2021)",
+        "3100 (P5, 2022-2025)"
+      ],
+      "resume": "Ce graphique présente l'évolution de l'obligation CEE par période. On observe une augmentation significative de l'obligation au fil des périodes, passant de 54 TWh CUMAC pour la période P1 (2006-2009) à 3100 TWh CUMAC pour la période P5 (2022-2025). La part de la précarité énergétique semble également croître, surtout dans les périodes les plus récentes."
+    }
+  },
+  {
+    "source_page": 186,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_186.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Consommation historique au sens de la DEE",
+      "type_graphique": "Graphique à barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "TWh",
+          "unite": "TWh"
+        }
+      },
+      "series": [
+        {
+          "label": "Consommation",
+          "tendance": "globalement stable avec une légère baisse récente"
+        }
+      ],
+      "valeurs_cles": [
+        "1540 (2022)",
+        "Cible 2030 : 1243 TWh"
+      ],
+      "resume": "Ce graphique montre la consommation historique d'énergie finale au sens de la DEE entre 2012 et 2022. La consommation est restée globalement stable autour de 1600-1700 TWh, avec une légère baisse en 2020 et 2021, et une légère remontée à 1540 TWh en 2022. La cible pour 2030 est de 1243 TWh."
+    }
+  },
+  {
+    "source_page": 188,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_188.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.4e - Évolution de la répartition des étiquettes DPE des résidences principales entre 2022 et 2024",
+      "type_graphique": "diagramme en barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Logements",
+          "unite": "%"
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions (Secten ed25)",
+          "tendance": null
+        },
+        {
+          "label": "Trajectoire SNBC 2 (ajustée 2025)",
+          "tendance": null
+        },
+        {
+          "label": "Trajectoire SNBC 3p (ajustée 2025)",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Ensemble des étiquettes DPE.",
+        "Évolution entre 2022 et 2024.",
+        "Répartition des logements par catégories (A à G)."
+      ],
+      "resume": "Ce graphique en barres présente l'évolution de la répartition des étiquettes du Diagnostic de Performance Énergétique (DPE) pour les résidences principales entre 2022 et 2024. Il compare les émissions avec deux trajectoires SNBC (2025 et ajustée 2025) pour chaque catégorie de logement de A à G. Les données montrent une augmentation des logements dans les catégories les plus performantes (comme C et D) et une diminution dans les catégories les moins performantes."
+    }
+  },
+  {
+    "source_page": 189,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_189.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.4f - Nombre de rénovations d'ampleur de logements soutenus par l'Anah depuis 2020 et budgets associés",
+      "type_graphique": "courbe",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Logements engagés",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Nombre de logements soutenus par l'Anah",
+          "tendance": "croissante"
+        }
+      ],
+      "valeurs_cles": [
+        "2020 : environ 40 000 logements",
+        "2023 : environ 80 000 logements"
+      ],
+      "resume": "Ce graphique en courbe montre l'évolution du nombre de logements engagés dans des rénovations d'ampleur soutenues par l'Anah entre 2020 et 2023. On observe une tendance globalement croissante, avec une augmentation significative sur la période."
+    }
+  },
+  {
+    "source_page": 193,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_193.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.4g - Répartition des émissions de gaz à effet de serre de l'acte d'aménager",
+      "type_graphique": "Camembert (Donut Chart)",
+      "axes": {
+        "x": null,
+        "y": null
+      },
+      "series": [
+        {
+          "label": "Changement d'affectation des sols",
+          "tendance": null
+        },
+        {
+          "label": "Bâtiments et activités résidentiels/tertiaires",
+          "tendance": null
+        },
+        {
+          "label": "Industrie manufacturière et construction",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "24 % Artificialisation : 11 Mt éqCO₂",
+        "25 % Fluide frigorigenes : 12 Mt éqCO₂",
+        "51 % Industrie de la construction : 24 Mt éqCO₂"
+      ],
+      "resume": "Ce graphique en donut représente la répartition des émissions de gaz à effet de serre liées à l'acte d'aménager, décomposée en trois catégories principales : le changement d'affectation des sols (24%), les bâtiments et activités résidentiels/tertiaires (non spécifié en pourcentage mais représenté par un segment), et l'industrie manufacturière et construction (51%). Des valeurs spécifiques en tonnes d'équivalent CO2 sont fournies pour l'artificialisation (11 Mt) et les fluides frigorigènes (12 Mt), ainsi que pour l'industrie de la construction (24 Mt)."
+    }
+  },
+  {
+    "source_page": 205,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_205.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.5a – Émissions du secteur de l’énergie en France depuis 2010, trajectoire SNBC 2 et du projet de SNBC 3",
+      "type_graphique": "graphique en courbes",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions (Secten ed25)",
+          "tendance": "baissière"
+        },
+        {
+          "label": "Trajectoire SNBC 2 (ajustée 2025)",
+          "tendance": "baissière"
+        },
+        {
+          "label": "Trajectoire SNBC 3p (ajustée 2025)",
+          "tendance": "baissière"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions en 2010 d'environ 65 Mt éqCO₂",
+        "Émissions en 2025 projetées autour de 35 Mt éqCO₂",
+        "Trajectoire SNBC 2 en 2025 projetée autour de 45 Mt éqCO₂",
+        "Trajectoire SNBC 3p en 2025 projetée autour de 35 Mt éqCO₂"
+      ],
+      "resume": "Le graphique montre l'évolution des émissions de gaz à effet de serre du secteur de l'énergie en France de 2010 à 2030, en comparant les émissions réelles (Secten ed25) avec deux trajectoires futures (SNBC 2 et SNBC 3p). On observe une tendance générale à la baisse des émissions, avec des projections indiquant une diminution continue jusqu'en 2025 et au-delà, plaçant la trajectoire SNBC 3p en ligne avec les émissions réelles projetées."
+    }
+  },
+  {
+    "source_page": 206,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_206.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.5b – Émissions des principaux sous-secteurs",
+      "type_graphique": "graphique en courbes",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": "Années"
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Millions de tonnes équivalent CO2"
+        }
+      },
+      "series": [
+        {
+          "label": "Production d'électricité",
+          "tendance": "baissière depuis 2018"
+        },
+        {
+          "label": "Raffinage du déchets",
+          "tendance": "stable et basse"
+        },
+        {
+          "label": "Valorisation énergétique des déchets",
+          "tendance": "légèrement baissière"
+        },
+        {
+          "label": "Chauffage urbain",
+          "tendance": "stable et basse"
+        },
+        {
+          "label": "Autres",
+          "tendance": "stable et très basse"
+        }
+      ],
+      "valeurs_cles": [
+        "La production d'électricité représente la majeure partie des émissions de CO2.",
+        "Les émissions ont globalement diminué sur la période 2010-2024.",
+        "Les émissions liées au raffinage, à la valorisation des déchets et au chauffage urbain sont significativement plus faibles que celles de la production d'électricité."
+      ],
+      "resume": "Ce graphique présente l'évolution des émissions de CO2 de plusieurs sous-secteurs entre 2010 et 2024. La production d'électricité est le principal contributeur aux émissions, bien que ces dernières aient montré une tendance à la baisse depuis 2018. Les autres sous-secteurs affichent des émissions nettement plus faibles et relativement stables sur la période."
+    }
+  },
+  {
+    "source_page": 206,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_206.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Figure 3.5c – Production électrique à base de thermique fossile",
+      "type_graphique": "graphique en courbes",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": "Années"
+        },
+        "y": {
+          "label": "TWh",
+          "unite": "Térawatt-heures"
+        }
+      },
+      "series": [
+        {
+          "label": "Total thermique fossile",
+          "tendance": "forte hausse puis baisse marquée"
+        },
+        {
+          "label": "Gaz",
+          "tendance": "en hausse jusqu'en 2017, puis en baisse"
+        },
+        {
+          "label": "Charbon",
+          "tendance": "fortement baissière"
+        },
+        {
+          "label": "Fioul",
+          "tendance": "très faible et en baisse"
+        }
+      ],
+      "valeurs_cles": [
+        "La production totale d'origine thermique fossile a connu un pic en 2017 puis une baisse significative.",
+        "La production de gaz a suivi une tendance similaire au total thermique fossile.",
+        "La production de charbon a diminué de manière drastique sur la période.",
+        "La production d'électricité à base de fioul est négligeable et en baisse."
+      ],
+      "resume": "Ce graphique illustre la production d'électricité issue des centrales thermiques fossiles (gaz, charbon, fioul) entre 2010 et 2024. On observe un pic de production totale en 2017, principalement tiré par le gaz, suivi d'une nette décrue. La production de charbon, quant à elle, a considérablement diminué au fil des années, tandis que celle issue du fioul reste très faible."
+    }
+  },
+  {
+    "source_page": 207,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_207.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.5d – Part atteinte et reste à combler dans le cadre de la PPE 2 – Production d’énergies renouvelables thermiques",
+      "type_graphique": "diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "TWh",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Objectif haut 2028",
+          "tendance": "croissante"
+        },
+        {
+          "label": "Objectif bas 2028",
+          "tendance": "croissante"
+        },
+        {
+          "label": "Part non-atteinte de l'objectif 2023",
+          "tendance": "croissante"
+        },
+        {
+          "label": "Objectif 2023 atteint",
+          "tendance": "croissante"
+        },
+        {
+          "label": "Réalisé 2023",
+          "tendance": "croissante"
+        }
+      ],
+      "valeurs_cles": [
+        "Biomasse : Réalisé 2023 atteint ~110 TWh, Objectif 2023 atteint ~120 TWh",
+        "Pompes à chaleur : Réalisé 2023 atteint ~20 TWh, Objectif 2023 atteint ~50 TWh",
+        "Chaleur renouvelable et de récupération livrée par les réseaux de chaleur : Réalisé 2023 atteint ~30 TWh, Objectif 2023 atteint ~35 TWh",
+        "Biogaz injecté dans les réseaux (PCS) : Réalisé 2023 atteint ~10 TWh, Objectif 2023 atteint ~15 TWh",
+        "Géothermie profonde : Réalisé 2023 atteint ~1 TWh",
+        "Solaire thermique : Réalisé 2023 atteint ~1 TWh"
+      ],
+      "resume": "Le graphique présente l'atteinte des objectifs de production d'énergies renouvelables thermiques en France pour différentes filières, en comparant le réalisé en 2023 aux objectifs de 2023 et 2028. La biomasse est la filière la plus développée et se rapproche de ses objectifs. Les pompes à chaleur et la chaleur renouvelable montrent une croissance significative. Le biogaz injecté, la géothermie et le solaire thermique sont encore à un stade moins avancé en termes de production mais présentent un potentiel de croissance."
+    }
+  },
+  {
+    "source_page": 208,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_208.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.5e - Part atteinte et reste à combler dans le cadre de la PPE 2 - Capacité d'énergies renouvelables électriques",
+      "type_graphique": "Diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "GW",
+          "unite": "Gigawatts"
+        }
+      },
+      "series": [
+        {
+          "label": "Niveau initial",
+          "tendance": null
+        },
+        {
+          "label": "2019",
+          "tendance": null
+        },
+        {
+          "label": "2020",
+          "tendance": null
+        },
+        {
+          "label": "2021",
+          "tendance": null
+        },
+        {
+          "label": "2022",
+          "tendance": null
+        },
+        {
+          "label": "2023",
+          "tendance": null
+        },
+        {
+          "label": "Part non-atteinte de l'objectif 2023",
+          "tendance": null
+        },
+        {
+          "label": "Objectif bas 2028",
+          "tendance": null
+        },
+        {
+          "label": "Objectif haut 2028",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Hydroélectricité : environ 25 GW en 2023, avec une part non atteinte de l'objectif pour 2023 et des objectifs bas et hauts pour 2028.",
+        "Éolien terrestre : environ 22 GW en 2023, avec une part non atteinte de l'objectif pour 2023 et des objectifs bas et hauts pour 2028.",
+        "Photovoltaïque : environ 14 GW en 2023, avec une part non atteinte de l'objectif pour 2023 et des objectifs bas et hauts pour 2028.",
+        "Éolien en mer : très faible capacité en 2023, avec une part non atteinte de l'objectif pour 2023 et des objectifs bas et hauts pour 2028.",
+        "Électricité à partir de méthanisation : capacité nulle en 2023, avec une part non atteinte de l'objectif pour 2023 et des objectifs bas et hauts pour 2028."
+      ],
+      "resume": "Le graphique montre la capacité installée d'énergies renouvelables électriques par filière (Hydroélectricité, Éolien terrestre, Photovoltaïque, Éolien en mer, Électricité à partir de méthanisation) pour l'année 2023. Il compare cette capacité aux objectifs fixés pour 2023 (part non atteinte) et 2028 (objectifs bas et hauts). On observe que les objectifs d'augmentation de la production électrique renouvelable n'ont pas été atteints par la plupart des filières, avec des écarts notables entre la capacité actuelle et les objectifs visés."
+    }
+  },
+  {
+    "source_page": 209,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_209.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.5f – Part atteinte et reste à combler dans le cadre de la PPE 2 – Consommations énergétiques finale et primaires fossiles",
+      "type_graphique": "diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Baisse de consommation (TWh)",
+          "unite": "TWh"
+        }
+      },
+      "series": [
+        {
+          "label": "Objectif haut 2028",
+          "tendance": null
+        },
+        {
+          "label": "Objectif bas 2028",
+          "tendance": null
+        },
+        {
+          "label": "Part non-atteinte de l'objectif 2023",
+          "tendance": null
+        },
+        {
+          "label": "Réalisé 2023",
+          "tendance": null
+        },
+        {
+          "label": "2023",
+          "tendance": null
+        },
+        {
+          "label": "2022",
+          "tendance": null
+        },
+        {
+          "label": "2021",
+          "tendance": null
+        },
+        {
+          "label": "2020",
+          "tendance": null
+        },
+        {
+          "label": "2019",
+          "tendance": null
+        },
+        {
+          "label": "Niveau initial",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Consommation finale d'énergie (hors soutes internationales)",
+        "Énergie fossile",
+        "Produits pétroliers",
+        "Gaz naturel",
+        "Charbon",
+        "Part d'énergies renouvelables dans la consommation finale"
+      ],
+      "resume": "Ce graphique compare la consommation d'énergie fossile et la part des énergies renouvelables dans la consommation finale par rapport à différents objectifs et réalisations entre 2019 et 2028. Il met en évidence les écarts par rapport aux objectifs fixés, notamment la non-atteinte de l'objectif 2023 pour certains secteurs, tout en montrant une tendance à la baisse de la consommation d'énergie fossile et à l'augmentation de la part des renouvelables."
+    }
+  },
+  {
+    "source_page": 224,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_224.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.6a – Émissions du secteur de la gestion centralisée des déchets en France depuis 2010, trajectoires SNBC 2 et du projet de SNBC 3",
+      "type_graphique": "graphique en ligne",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO2",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions (Secten ed25)",
+          "tendance": "descendante"
+        },
+        {
+          "label": "Trajectoire SNBC 2 (ajustée 2025)",
+          "tendance": "descendante"
+        },
+        {
+          "label": "Trajectoire SNBC 3p (ajustée 2025)",
+          "tendance": "descendante"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions du secteur de la gestion centralisée des déchets en France depuis 2010.",
+        "Comparaison avec les trajectoires SNBC 2 et SNBC 3."
+      ],
+      "resume": "Ce graphique en ligne montre l'évolution des émissions de gaz à effet de serre (GES) du secteur de la gestion centralisée des déchets en France de 2010 à 2030, en comparaison avec les trajectoires SNBC 2 et SNBC 3. Les émissions ont globalement diminué sur la période, et les projections indiquent une poursuite de cette tendance, avec des trajectoires SNBC qui semblent plus ambitieuses que la tendance observée."
+    }
+  },
+  {
+    "source_page": 239,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_239.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3.7a – Évolution du puits de carbone du secteur UTCATF depuis 2010, trajectoire SNBC 2, objectifs du projet de SNBC 3 et du règlement UE UTCATF.",
+      "type_graphique": "ligne",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Bilan UTCATF",
+          "unite": "Mt éqCO2"
+        }
+      },
+      "series": [
+        {
+          "label": "Bilan UTCATF (avec bois mort)",
+          "tendance": "augmentation puis légère baisse"
+        },
+        {
+          "label": "Bilan UTCATF (sans bois mort)",
+          "tendance": "augmentation puis légère baisse"
+        },
+        {
+          "label": "Trajectoire SNBC 2 ajustée",
+          "tendance": "augmentation progressive"
+        },
+        {
+          "label": "Trajectoire du projet de SNBC 3 ajustée",
+          "tendance": "stable puis légère augmentation"
+        },
+        {
+          "label": "Objectif du règlement UE UTCATF 2030",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Bilan UTCATF (sans bois mort) atteint environ -40 Mt éqCO2 en 2010, chute à -52 Mt éqCO2 en 2013, puis augmente pour atteindre environ -30 Mt éqCO2 en 2020.",
+        "Trajectoire SNBC 2 ajustée se situe autour de -40 Mt éqCO2 en 2010, et progresse vers -20 Mt éqCO2 en 2030.",
+        "Objectif du règlement UE UTCATF 2030 est positionné à environ -25 Mt éqCO2."
+      ],
+      "resume": "Le graphique montre l'évolution du puits de carbone du secteur UTCATF de 2010 à 2030, comparant le bilan réel (avec et sans bois mort) aux trajectoires SNBC 2 et 3 ajustées, ainsi qu'à l'objectif du règlement UE UTCATF 2030. La tendance générale du bilan réel est une augmentation progressive du puits de carbone, avec des fluctuations. Les trajectoires projetées montrent une amélioration plus marquée, visant à atteindre l'objectif réglementaire."
+    }
+  },
+  {
+    "source_page": 240,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_240.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Principaux flux de GES en équivalents CO2 par catégorie de terres avec, ou sans, changements d'usages pour l'année 2023.",
+      "type_graphique": "diagramme en barres",
+      "axes": {
+        "x": {
+          "label": "Catégorie de terres",
+          "unite": null
+        },
+        "y": {
+          "label": "Flux de GES",
+          "unite": "Mt éqCO2"
+        }
+      },
+      "series": [
+        {
+          "label": "Flux",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "-36,1",
+        "-15,0",
+        "-3,8",
+        "-0,5",
+        "-0,5",
+        "+0,1",
+        "+0,7",
+        "+4,5",
+        "+11,7"
+      ],
+      "resume": "Ce diagramme en barres présente les principaux flux de gaz à effet de serre (GES) en équivalents CO2 pour l'année 2023, classés par catégorie de terres avec ou sans changements d'usages. Les barres vertes représentent les absorptions, tandis que les barres orange indiquent les émissions. La catégorie 'Forêt sans changement d'usage' présente la plus forte absorption (-36,1 Mt éqCO2), tandis que 'Conversion en terre cultivées' représente la plus forte émission (+11,7 Mt éqCO2)."
+    }
+  },
+  {
+    "source_page": 286,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_286.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 4.1a - État de mise en place en 2020 et en juin 2025 des composantes de la stratégie énergie-climat",
+      "type_graphique": "Diagramme conceptuel",
+      "axes": null,
+      "series": [],
+      "valeurs_cles": [
+        "LÉGENDE",
+        "EN 2020",
+        "EN JUIN 2025",
+        "Publié",
+        "En cours, ou statut à préciser",
+        "Absent",
+        "Vision politique, cadrage, objectifs de long terme",
+        "Stratégie d'atténuation à long terme",
+        "Programmation énergie à court terme",
+        "Autres documents de planification transversaux, sectoriels ou territoriaux",
+        "Stratégie d'adaptation à long terme",
+        "S H C C",
+        "Note : autres documents de planification : PCAET, SRADDET, SNMB, etc. Voir : le projet de SNBC 3 indique que « l'exercice de modélisation permet à ce stade pour le secteur des bâtiments d'atteindre 35 Mt éqCO₂ à l'horizon 2030. Les émissions résiduelles du secteur à l'horizon 2030 sont supérieures à la cible pressentie pour le secteur par le Gouvernement. Des mesures supplémentaires restent à sécuriser dans les prochains mois pour permettre de réduire les émissions du secteur à moins de 32 Mt éqCO₂ en 2030. » et qu'« en tenant compte de cet objectif, la cible globale à l'horizon 2030 se situerait autour de 267 Mt éqCO₂ »."
+      ],
+      "resume": "Cette figure compare l'état de mise en place des composantes de la stratégie énergie-climat en 2020 et en juin 2025. Elle présente une légende décrivant les différents éléments de la stratégie (vision, atténuation, programmation, documents de planification, adaptation) et leur statut (Publié, En cours, Absent) pour les deux périodes. Elle met en évidence les évolutions et les différences dans la concrétisation de ces composantes entre 2020 et 2025."
+    }
+  },
+  {
+    "source_page": 289,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_289.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 4.1b- Comparaison des trajectoires de réduction et des cibles 2030 entre SNBC 1, SNBC 2 et projet de SNBC 3.",
+      "type_graphique": "ligne",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂/an",
+          "unite": "Mt éqCO₂/an"
+        }
+      },
+      "series": [
+        {
+          "label": "SNBC1",
+          "tendance": "descendante"
+        },
+        {
+          "label": "SNBC2",
+          "tendance": "descendante"
+        },
+        {
+          "label": "SNBC3p",
+          "tendance": "descendante"
+        },
+        {
+          "label": "Émissions historiques",
+          "tendance": "descendante"
+        }
+      ],
+      "valeurs_cles": [
+        "Trajectoires de réduction des émissions",
+        "Cibles 2030",
+        "Comparaison SNBC 1, SNBC 2 et projet de SNBC 3"
+      ],
+      "resume": "Ce graphique compare les trajectoires de réduction des émissions de gaz à effet de serre pour la SNBC 1, la SNBC 2 et le projet de SNBC 3, ainsi que les émissions historiques. On observe une tendance à la baisse pour toutes les trajectoires, mais avec des rythmes de réduction différents. Les émissions historiques montrent une légère baisse avant 2015, puis une stabilisation avant de reprendre une légère baisse."
+    }
+  },
+  {
+    "source_page": 290,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_290.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Comparaison de la réduction entre 2010 et 2030 entre SNBC1, SNBC2 et projet de SNBC3, en Mt éqCO₂/an",
+      "type_graphique": "diagramme en barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Réduction en Mt éqCO₂/an",
+          "unite": "Mt éqCO₂/an"
+        }
+      },
+      "series": [
+        {
+          "label": "SNBC1",
+          "tendance": "négative"
+        },
+        {
+          "label": "SNBC2",
+          "tendance": "négative"
+        },
+        {
+          "label": "SNBC3p",
+          "tendance": "négative"
+        }
+      ],
+      "valeurs_cles": [
+        "Transports : SNBC1 ≈ -0,2 Mt éqCO₂/an, SNBC2 ≈ -0,4 Mt éqCO₂/an, SNBC3p ≈ -0,3 Mt éqCO₂/an",
+        "Agriculture : SNBC1 ≈ -0,25 Mt éqCO₂/an, SNBC2 ≈ -0,9 Mt éqCO₂/an, SNBC3p ≈ -0,8 Mt éqCO₂/an",
+        "Industrie : SNBC1 ≈ -0,25 Mt éqCO₂/an, SNBC2 ≈ -1,1 Mt éqCO₂/an, SNBC3p ≈ -1,1 Mt éqCO₂/an",
+        "Bâtiments : SNBC1 ≈ -0,1 Mt éqCO₂/an, SNBC2 ≈ -0,6 Mt éqCO₂/an, SNBC3p ≈ -0,6 Mt éqCO₂/an",
+        "Énergie : SNBC1 ≈ -0,2 Mt éqCO₂/an, SNBC2 ≈ -0,5 Mt éqCO₂/an, SNBC3p ≈ -0,4 Mt éqCO₂/an",
+        "Déchèts : SNBC1 ≈ -0,1 Mt éqCO₂/an, SNBC2 ≈ -0,3 Mt éqCO₂/an, SNBC3p ≈ -0,2 Mt éqCO₂/an"
+      ],
+      "resume": "Ce diagramme en barres compare les réductions d'émissions de gaz à effet de serre (GES) projetées en 2030 par rapport à 2010 pour trois scénarios : SNBC1, SNBC2 et le projet SNBC3. Les réductions sont exprimées en tonnes d'équivalent CO₂ par an et sont ventilées par secteur : Transports, Agriculture, Industrie, Bâtiments, Énergie et Déchets. Globalement, le scénario SNBC2 prévoit les plus fortes réductions d'émissions, suivit de près par le SNBC3, tandis que le SNBC1 montre des réductions plus modestes dans la plupart des secteurs."
+    }
+  },
+  {
+    "source_page": 290,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_290.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Réductions d'émissions sectorielles attendues dans la SNBC 3 aux horizons 2030 et 2050.",
+      "type_graphique": "diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "1 Mt éqCO₂",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Transports : Réductions observées 2019-2023 (vert) + Réductions prévues 2031-2050 (gris)",
+        "Agriculture : Réductions observées 2019-2023 (vert) + Réductions prévues 2024-2030 (rouge) + Réductions prévues 2031-2050 (gris)",
+        "Industrie : Réductions observées 2019-2023 (vert) + Réductions prévues 2024-2030 (rouge) + Réductions prévues 2031-2050 (gris)",
+        "Bâtiments : Réductions observées 2019-2023 (vert) + Réductions prévues 2024-2030 (rouge) + Réductions prévues 2031-2050 (gris)",
+        "Énergie : Réductions observées 2019-2023 (vert) + Réductions prévues 2024-2030 (rouge) + Réductions prévues 2031-2050 (gris)",
+        "Déchets : Réductions prévues 2024-2030 (rouge) + Réductions prévues 2031-2050 (gris)"
+      ],
+      "resume": "Ce diagramme en barres empilées illustre les réductions d'émissions sectorielles attendues dans le cadre de la SNBC 3, pour les horizons 2030 et 2050. Il distingue les réductions observées entre 2019 et 2023 (en vert), les réductions prévues entre 2024 et 2030 (en rouge), et les réductions prévues entre 2031 et 2050 (en gris), ces dernières représentant aussi les émissions résiduelles en 2050. Les secteurs des Transports, de l'Agriculture, de l'Industrie et des Bâtiments montrent des baisses d'émissions sur les deux périodes, avec des contributions notables des réductions observées et futures. L'Énergie affiche également des réductions significatives. Pour les Déchets, seules des réductions futures sont indiquées."
+    }
+  },
+  {
+    "source_page": 292,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_292.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 4.1e - Comparaison des leviers de réduction d'émissions entre 2010 et 2030 selon les trois SNBC",
+      "type_graphique": "diagramme en barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "SNBC 1",
+          "tendance": "négative"
+        },
+        {
+          "label": "SNBC 2",
+          "tendance": "négative"
+        },
+        {
+          "label": "Projet de SNBC 3",
+          "tendance": "négative"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions brutes",
+        "UTCATF",
+        "CCS"
+      ],
+      "resume": "Le diagramme en barres compare les leviers de réduction d'émissions pour trois scénarios (SNBC 1, SNBC 2 et Projet de SNBC 3) pour l'horizon 2010-2030. Il montre des réductions d'émissions négatives pour les trois scénarios dans les catégories 'Émissions brutes', 'UTCATF' et 'CCS'. Le scénario 'Projet de SNBC 3' présente la réduction la plus importante en valeur absolue pour 'Émissions brutes' et 'UTCATF', et une réduction plus faible pour 'CCS' comparativement aux autres scénarios, qui n'ont pas de barre pour 'CCS'."
+    }
+  },
+  {
+    "source_page": 301,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_301.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "ÉVALUATION DES CONDITIONS DE RÉUSSITE DU PNACC 3",
+      "type_graphique": null,
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": null
+        }
+      },
+      "series": [],
+      "valeurs_cles": [
+        "Condition 1 - Augmenter les moyens, renforcer la valeur juridique et améliorer la gouvernance de l'adaptation.",
+        "Condition 2 - Intégrer l'adaptation dans les politiques environnementales, sociales et de sécurité.",
+        "Condition 3 - Mobiliser les connaissances scientifiques pour renforcer les politiques d'adaptation.",
+        "Condition 4 - Compléter la vision stratégique de l'adaptation.",
+        "Condition 5 - Inscrire et porter la politique nationale d'adaptation aux échelles européenne et internationale."
+      ],
+      "resume": "Cette section détaille les cinq conditions de réussite identifiées par le Haut Conseil pour le Climat (HCC) pour le PNACC 3. Ces conditions couvrent l'augmentation des moyens et de la gouvernance de l'adaptation, son intégration dans les politiques intersectorielles, la mobilisation des connaissances scientifiques, le renforcement de la vision stratégique et l'inscription de la politique d'adaptation dans un cadre européen et international."
+    }
+  },
+  {
+    "source_page": 312,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_312.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 4.7a – Origine des écarts entre le bilan carbone de Paris 2024 et celui de Londres 2012, en kteqCO₂",
+      "type_graphique": "Diagramme à barres",
+      "axes": {
+        "x": {
+          "label": "Facteurs d'émissions/réductions",
+          "unite": null
+        },
+        "y": {
+          "label": "Émissions/Réductions (kteqCO₂)",
+          "unite": "kteqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Utilisation d'infrastructures existantes",
+          "tendance": "neutre"
+        },
+        {
+          "label": "Déplacements des spectateurs",
+          "tendance": "positif"
+        },
+        {
+          "label": "Gains SOLIDEO (construction bas carbone)",
+          "tendance": "négatif"
+        },
+        {
+          "label": "Préparation & organisation",
+          "tendance": "positif"
+        },
+        {
+          "label": "Gains mix électrique Français",
+          "tendance": "négatif"
+        },
+        {
+          "label": "Gains localisation France",
+          "tendance": "négatif"
+        }
+      ],
+      "valeurs_cles": [
+        "3 330",
+        "-1 448",
+        "+433",
+        "-193",
+        "+17",
+        "-28",
+        "-25",
+        "2 085"
+      ],
+      "resume": "Ce diagramme à barres compare les émissions de carbone (en kteqCO₂) liées à différents facteurs entre Paris 2024 et Londres 2012. Il montre que l'utilisation d'infrastructures existantes et les déplacements des spectateurs contribuent aux émissions, tandis que la construction bas carbone (SOLIDEO), la préparation/organisation, le mix électrique français et la localisation en France génèrent des réductions. Le bilan carbone total de Paris 2024 est significativement plus bas que celui de Londres 2012."
+    }
+  },
+  {
+    "source_page": 319,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_319.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 4.2a - Tarification effective du carbone en 2024 par secteur",
+      "type_graphique": "Diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": "Émission de gaz à effet de serre",
+          "unite": "Mt éqCO2"
+        },
+        "y": {
+          "label": "Tarification effective (€/t éqCO2)",
+          "unite": "€/t éqCO2"
+        }
+      },
+      "series": [
+        {
+          "label": "Agriculture",
+          "tendance": "nulle"
+        },
+        {
+          "label": "Industrie",
+          "tendance": "nulle"
+        },
+        {
+          "label": "Énergie",
+          "tendance": "nulle"
+        },
+        {
+          "label": "Transport entreprises",
+          "tendance": "nulle"
+        },
+        {
+          "label": "Tertiaire",
+          "tendance": "nulle"
+        },
+        {
+          "label": "Transport ménages",
+          "tendance": "nulle"
+        },
+        {
+          "label": "Résidentiel",
+          "tendance": "nulle"
+        }
+      ],
+      "valeurs_cles": [
+        "La tarification moyenne des émissions de gaz à effet de serre est de 92 €/t éqCO2 en 2024.",
+        "La tarification dans le secteur du transport (ménages et entreprises) atteint 180 €/t éqCO2."
+      ],
+      "resume": "Ce graphique en barres empilées illustre la tarification effective du carbone par secteur en 2024, en fonction des émissions de gaz à effet de serre. Il montre que la tarification moyenne est de 92 €/t éqCO2, mais qu'elle atteint 180 €/t éqCO2 pour les transports (ménages et entreprises). On observe une hétérogénéité sectorielle importante dans cette tarification."
+    }
+  },
+  {
+    "source_page": 378,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_378.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "NOTES ET RÉFÉRENCES DU CHAPITRE 5",
+      "type_graphique": "liste_references",
+      "axes": null,
+      "series": [],
+      "valeurs_cles": [],
+      "resume": "La page présente une liste de 52 références bibliographiques, principalement des articles, rapports et règlements européens, datant majoritairement de 2020 à 2025. Ces références couvrent des sujets liés à la politique climatique européenne, la neutralité carbone, les émissions, le marché du carbone, les relations internationales en matière d'énergie, et les stratégies de transition énergétique."
+    }
+  },
+  {
+    "source_page": 45,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_45.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Anomalie de température en moyenne annuelle observée en France métropolitaine de 1899 à 2024",
+      "type_graphique": "graphique linéaire avec points et bande d'incertitude",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Anomalie de température (°C)",
+          "unite": "°C"
+        }
+      },
+      "series": [
+        {
+          "label": "Observations (1899-2023)",
+          "tendance": "hausse"
+        },
+        {
+          "label": "Réchauffement climatique estimé selon Ribes et al. (2022)",
+          "tendance": "hausse"
+        }
+      ],
+      "valeurs_cles": [
+        "L'anomalie de température moyenne annuelle en France métropolitaine a augmenté de 1,9°C depuis le début des activités humaines.",
+        "Les années 2022, 2023 et 2024 sont parmi les plus chaudes jamais enregistrées.",
+        "Une tendance générale à la hausse de la température est observée sur la période 1899-2024, avec une accélération notable à partir de 1990."
+      ],
+      "resume": "Le graphique illustre l'augmentation de l'anomalie de température moyenne annuelle en France métropolitaine entre 1899 et 2024. Les points noirs représentent les observations annuelles, tandis que la ligne rouge et la bande ombragée indiquent l'estimation du réchauffement climatique selon Ribes et al. (2022). Une tendance claire à la hausse est visible, confirmant l'impact du réchauffement climatique."
+    }
+  },
+  {
+    "source_page": 47,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_47.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 1.2b - Rapport à la moyenne sur la période 1991-2020 de l'indice de sécheresse (déficit d'humidité des sols sur 12 mois) en août 2022, août 2023 et août 2024",
+      "type_graphique": "Carte thématique",
+      "axes": {
+        "x": {
+          "label": "Longitude",
+          "unite": null
+        },
+        "y": {
+          "label": "Latitude",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Déficit d'humidité des sols sur 12 mois de septembre 2021 à août 2022",
+          "tendance": "Augmentation du déficit dans le sud et le nord-est"
+        },
+        {
+          "label": "Déficit d'humidité des sols sur 12 mois de septembre 2022 à août 2023",
+          "tendance": "Déficit généralisé, particulièrement fort dans le sud et le centre"
+        },
+        {
+          "label": "Déficit d'humidité des sols sur 12 mois de septembre 2023 à août 2024",
+          "tendance": "Amélioration générale, sauf dans le sud où le déficit persiste"
+        }
+      ],
+      "valeurs_cles": [
+        "Extrêmement sec",
+        "Très sec",
+        "Modérément sec",
+        "Autour de la normale",
+        "Modérément humide",
+        "Très humide",
+        "Extrêmement humide"
+      ],
+      "resume": "La figure présente trois cartes thématiques de la France montrant l'évolution du déficit d'humidité des sols sur 12 mois pour les périodes se terminant en août 2022, août 2023 et août 2024, par rapport à la moyenne de la période 1991-2020. La légende indique une échelle allant de 'Extrêmement sec' à 'Extrêmement humide' représentée par des couleurs allant du rouge à l'orange, jaune, crème et vert. En août 2022, un déficit notable est observé dans le sud et le nord-est. En août 2023, la sécheresse s'est étendue et intensifiée sur une grande partie du territoire, notamment le sud et le centre. En août 2024, une amélioration significative est constatée, avec des conditions plus humides sur la majeure partie de la France, bien que le sud continue de montrer des signes de déficit."
+    }
+  },
+  {
+    "source_page": 53,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_53.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 1.4 - Durée et intensité des vagues de chaleur pour la période de référence (1976-2005) et pour deux horizons de temps de la TRACC (2050 et 2100)",
+      "type_graphique": "Bubble Chart",
+      "axes": {
+        "x": {
+          "label": "Durée (jours)",
+          "unite": null
+        },
+        "y": {
+          "label": "Intensité (°C)",
+          "unite": "°C"
+        }
+      },
+      "series": [
+        {
+          "label": "Période de référence (1976-2005)",
+          "tendance": "Indiqué par des bulles grises, représentant les valeurs de référence."
+        },
+        {
+          "label": "2050 - France à +2,7 °C",
+          "tendance": "Indiqué par des bulles oranges, montrant une augmentation de la durée et de l'intensité par rapport à la période de référence."
+        },
+        {
+          "label": "2100 - France à +4 °C",
+          "tendance": "Indiqué par des bulles rouges, montrant une augmentation significative de la durée et de l'intensité par rapport aux deux autres séries."
+        }
+      ],
+      "valeurs_cles": [
+        "Les bulles rouges (2100, +4°C) montrent les durées et intensités les plus élevées.",
+        "Les bulles oranges (2050, +2.7°C) montrent des durées et intensités intermédiaires.",
+        "Les bulles grises (période de référence) montrent les durées et intensités les plus faibles."
+      ],
+      "resume": "Ce graphique compare la durée et l'intensité des vagues de chaleur pour la période de référence 1976-2005 avec deux horizons futurs prédits par le modèle TRACC pour la France métropolitaine : 2050 avec un réchauffement moyen de +2,7°C et 2100 avec un réchauffement moyen de +4°C. La taille des bulles indique la sévérité, correspondant à la quantité de chaleur perçue. Il est clair que les projections futures montrent une augmentation significative de la durée et de l'intensité des vagues de chaleur, culminant en 2100."
+    }
+  },
+  {
+    "source_page": 59,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_59.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Carte mondiale des principaux événements de vagues de chaleur marines survenus depuis 1995",
+      "type_graphique": "Carte",
+      "axes": null,
+      "series": [
+        {
+          "label": "Modéré",
+          "tendance": "augmentant"
+        },
+        {
+          "label": "Fort",
+          "tendance": "augmentant"
+        },
+        {
+          "label": "Sévère",
+          "tendance": "augmentant"
+        },
+        {
+          "label": "Extrême",
+          "tendance": "augmentant"
+        }
+      ],
+      "valeurs_cles": [
+        "Danemark / Suède 3/6/2018",
+        "Méditerranée 2/1/2023",
+        "Océan Atlantique nord-est 1/5/2023",
+        "Grande-Bretagne 21/6/2023",
+        "Golfe Persique 8/8/2017",
+        "Île d'Okinawa 13/9/2017",
+        "Guam / Îles Mariannes 12/6/2017",
+        "Mer de Béring 4/3/2016",
+        "El Niño 17/11/2015",
+        "Baie de Baffin 12/5/2009",
+        "Atlantique nord-ouest 24/3/2012",
+        "Basse-Californie 9/8/2018",
+        "Caraïbes 25/5/2005",
+        "Mer rouge 28/8/2010",
+        "Benguela 17/4/1995",
+        "Seychelles 18/1/1998",
+        "Australie du nord-ouest 3/7/2016",
+        "Golfe du Bengale 15/5/2010",
+        "Niño du Ningaloo 25/2/2011",
+        "Mer de Java 17/1/2016",
+        "Grande Barrière de corail 27/6/2016",
+        "Nouvelle-Zélande 7/12/2017",
+        "El Niño 9/11/1997",
+        "Chili 28/1/2017",
+        "Atlantique sud-ouest 7/2/2014",
+        "Archipel Crozet 14/2/1997",
+        "Mer de Tasman 13/2/2016",
+        "Le Blob 7/1/2014"
+      ],
+      "resume": "Cette carte montre la répartition géographique des événements de vagues de chaleur marines depuis 1995, classés par intensité (modéré, fort, sévère, extrême), avec des dates d'occurrence spécifiques pour de nombreux événements."
+    }
+  },
+  {
+    "source_page": 59,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_59.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Température quotidienne de surface de la mer pour les années 2022, 2023 et médiane de la période 1991-2020",
+      "type_graphique": "Graphique en ligne",
+      "axes": {
+        "x": {
+          "label": "Mois",
+          "unite": null
+        },
+        "y": {
+          "label": "Température de surface de la mer (°C)",
+          "unite": "°C"
+        }
+      },
+      "series": [
+        {
+          "label": "2022",
+          "tendance": "variable"
+        },
+        {
+          "label": "2023",
+          "tendance": "variable"
+        },
+        {
+          "label": "2024",
+          "tendance": "variable"
+        },
+        {
+          "label": "Médiane 1991-2020",
+          "tendance": "variable"
+        }
+      ],
+      "valeurs_cles": [
+        "Océan Atlantique tropical (St Martin, St Barthélemy, Guadeloupe, Martinique, Guyane)",
+        "Mer Méditerranée",
+        "Températures entre 16°C et 30°C",
+        "Médiane 1991-2020"
+      ],
+      "resume": "Ce graphique compare la température quotidienne de la surface de la mer pour l'Océan Atlantique tropical et la Mer Méditerranée pour les années 2022, 2023 et 2024, par rapport à la médiane de la période 1991-2020. Il permet de visualiser les variations saisonnières et les éventuels écarts par rapport à la normale."
+    }
+  },
+  {
+    "source_page": 70,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_70.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 3 – Stratégies pour initier l’adaptation transformationnelle",
+      "type_graphique": "Diagramme schématique",
+      "axes": {
+        "x": {
+          "label": "Changement rapide",
+          "unite": null
+        },
+        "y": {
+          "label": "Changement en profondeur",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Grands projets",
+          "tendance": "Changement rapide"
+        },
+        {
+          "label": "Petites victoires",
+          "tendance": "Changement en profondeur"
+        },
+        {
+          "label": "Changement à l'échelle du système",
+          "tendance": "Changement en profondeur"
+        },
+        {
+          "label": "Changer les règles du jeu",
+          "tendance": "Changement rapide"
+        }
+      ],
+      "valeurs_cles": [
+        "Grands projets de protection côtière (>1 Mrd €)",
+        "Conservation côtière initiée localement",
+        "Nouvelles réglementations, mesures incitatives",
+        "Transformation durable",
+        "Synergies avec d'autres initiatives"
+      ],
+      "resume": "Cette figure présente un modèle matriciel des stratégies d'adaptation transformationnelle, organisé autour de deux axes : le changement rapide versus le changement en profondeur, et les grands projets versus les petites victoires. Le centre du modèle est la \"Transformation durable\", issue de l'interaction entre ces différentes stratégies. Des exemples concrets et les exigences associées sont fournis pour chaque type de stratégie, ainsi que les risques potentiels."
+    }
+  },
+  {
+    "source_page": 80,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_80.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.1a - Évolutions interannuelles, depuis 2010, des émissions brutes",
+      "type_graphique": "Diagramme en barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO2",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Emissions annuelles",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "2010: 0",
+        "2011: +4",
+        "2012: +3",
+        "2013: -1",
+        "2014: -33",
+        "2015: -40",
+        "2016: +24",
+        "2017: +3",
+        "2018: +2",
+        "2019: +3",
+        "2020: -19",
+        "2021: -16",
+        "2022: -27",
+        "2023: -7",
+        "2024: estimation provisoire"
+      ],
+      "resume": "Ce diagramme en barres présente l'évolution interannuelle des émissions brutes depuis 2010, exprimées en millions de tonnes d'équivalent CO2 (Mt éqCO2). Les barres rouges indiquent une augmentation des émissions, tandis que les barres bleues et vertes indiquent une diminution. On observe des fluctuations importantes au fil des années, avec une forte augmentation en 2016 (+24 Mt éqCO2) et une diminution marquée en 2014 (-33 Mt éqCO2) et 2015 (-40 Mt éqCO2). La période 2023-2024 est une estimation provisoire indiquée en vert (-7 Mt éqCO2)."
+    }
+  },
+  {
+    "source_page": 81,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_81.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.1b - Évolution des émissions territoriales brutes",
+      "type_graphique": "graphique en ligne",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions territoriales brutes",
+          "tendance": "baissière"
+        }
+      ],
+      "valeurs_cles": [
+        "500 Mt éqCO₂ en 2010",
+        "environ 400 Mt éqCO₂ en 2024"
+      ],
+      "resume": "Ce graphique en ligne montre l'évolution des émissions territoriales brutes entre 2010 et 2024. On observe une tendance générale à la baisse sur cette période."
+    }
+  },
+  {
+    "source_page": 81,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_81.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Figure 2.1c - Part des émissions par secteur en 2024",
+      "type_graphique": "camembert",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Transports",
+          "tendance": null
+        },
+        {
+          "label": "Agriculture",
+          "tendance": null
+        },
+        {
+          "label": "Industrie",
+          "tendance": null
+        },
+        {
+          "label": "Bâtiments",
+          "tendance": null
+        },
+        {
+          "label": "Énergie",
+          "tendance": null
+        },
+        {
+          "label": "Déchets",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Transports 34%",
+        "Agriculture 21%",
+        "Industrie 17%",
+        "Bâtiments 15%",
+        "Énergie 9%",
+        "Déchets 4%"
+      ],
+      "resume": "Ce camembert illustre la répartition des émissions par secteur en 2024. Les transports représentent la plus grande part des émissions (34%), suivis par l'agriculture (21%) et l'industrie (17%)."
+    }
+  },
+  {
+    "source_page": 81,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_81.png",
+    "figure_index_in_image": 2,
+    "analysis": {
+      "titre": "Figure 2.1d - Évolution des émissions par secteur, en 2023 et en 2024",
+      "type_graphique": "diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Transports",
+          "tendance": "stable"
+        },
+        {
+          "label": "Bâtiments",
+          "tendance": "stable"
+        },
+        {
+          "label": "Agriculture",
+          "tendance": "stable"
+        },
+        {
+          "label": "Industrie",
+          "tendance": "stable"
+        },
+        {
+          "label": "Énergie",
+          "tendance": "stable"
+        },
+        {
+          "label": "Déchets",
+          "tendance": "stable"
+        }
+      ],
+      "valeurs_cles": [
+        "Baisse des émissions entre 2023 et 2024",
+        "Secteur énergie le principal contributeur à la baisse"
+      ],
+      "resume": "Ce diagramme compare les émissions par secteur en 2023 et 2024. Il montre une baisse globale des émissions entre ces deux années, avec le secteur de l'énergie comme principal contributeur à cette réduction."
+    }
+  },
+  {
+    "source_page": 82,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_82.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.1e – Comparaison, par secteur, du rythme de réduction des émissions par période",
+      "type_graphique": "Diagramme en barres",
+      "axes": {
+        "x": {
+          "label": "Secteur",
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂/an",
+          "unite": "Mt éqCO₂/an"
+        }
+      },
+      "series": [
+        {
+          "label": "2010-2014",
+          "tendance": null
+        },
+        {
+          "label": "2015-2018",
+          "tendance": null
+        },
+        {
+          "label": "2019-2023",
+          "tendance": null
+        },
+        {
+          "label": "2024",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Transports",
+        "Agriculture",
+        "Industrie",
+        "Bâtiments",
+        "Énergie",
+        "Déchets"
+      ],
+      "resume": "Ce graphique compare le rythme de réduction des émissions de gaz à effet de serre par secteur pour différentes périodes. On observe que la production d'énergie a vu son rythme de réduction ralentir, tandis que d'autres secteurs comme les transports, l'agriculture, l'industrie, les bâtiments et les déchets montrent des tendances variables selon les périodes, avec une baisse totale de 7 Mt éqCO₂ entre 2023 et 2024 pour les émissions brutes."
+    }
+  },
+  {
+    "source_page": 82,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_82.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Figure 2.1f – Comparaison, par secteur, des trajectoires de décarbonation depuis 2010",
+      "type_graphique": "Graphique linéaire",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Indice d'émissions",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Transports",
+          "tendance": "Globalement décroissante, avec une légère hausse en 2020-2022."
+        },
+        {
+          "label": "Agriculture",
+          "tendance": "Globalement décroissante, relativement stable après 2018."
+        },
+        {
+          "label": "Déchets",
+          "tendance": "Décroissante avec une accélération à partir de 2018."
+        },
+        {
+          "label": "Industrie",
+          "tendance": "Décroissante avec une baisse significative après 2018."
+        },
+        {
+          "label": "Bâtiments",
+          "tendance": "Décroissante, avec une baisse plus marquée après 2018."
+        },
+        {
+          "label": "Énergie",
+          "tendance": "Décroissante, avec une baisse très marquée après 2018."
+        }
+      ],
+      "valeurs_cles": [
+        "2010",
+        "2012",
+        "2014",
+        "2016",
+        "2018",
+        "2020",
+        "2022",
+        "2024"
+      ],
+      "resume": "Ce graphique illustre l'évolution des trajectoires de décarbonation de divers secteurs depuis 2010. Il montre que les trajectoires pour les bâtiments, l'énergie et l'industrie sont plus lentes que prévu, avec des taux de réduction moyens annuels de respectivement 5%, 4% et 3% entre 2010 et 2024. Les secteurs des transports et de l'agriculture ont un rythme de réduction plus faible, environ 1% par an."
+    }
+  },
+  {
+    "source_page": 84,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_84.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.1g – Répartition des émissions brutes de 2024 par gaz à effet de serre",
+      "type_graphique": "camembert",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "CO₂ - 74 %",
+          "tendance": null
+        },
+        {
+          "label": "CH₄ - 16 %",
+          "tendance": null
+        },
+        {
+          "label": "N₂O - 7 %",
+          "tendance": null
+        },
+        {
+          "label": "GAZ FLUORÉS - 3 %",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "CO₂ représente 74% des émissions brutes de gaz à effet de serre en 2024.",
+        "CH₄ représente 16%.",
+        "N₂O représente 7%.",
+        "Gaz fluorés représentent 3%."
+      ],
+      "resume": "Ce graphique circulaire montre la répartition des émissions brutes de gaz à effet de serre pour l'année 2024. Le dioxyde de carbone (CO₂) est le principal contributeur avec 74%, suivi par le méthane (CH₄) à 16%, le protoxyde d'azote (N₂O) à 7%, et les gaz fluorés à 3%."
+    }
+  },
+  {
+    "source_page": 84,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_84.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Figure 2.1h - Comparaison, par gaz à effet de serre, du rythme de réduction des émissions par période",
+      "type_graphique": "barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂/an",
+          "unite": "Mt équivalent CO2 par an"
+        }
+      },
+      "series": [
+        {
+          "label": "2010-2014",
+          "tendance": "baisse"
+        },
+        {
+          "label": "2015-2018",
+          "tendance": "baisse"
+        },
+        {
+          "label": "2019-2023",
+          "tendance": "baisse"
+        },
+        {
+          "label": "2023-2024",
+          "tendance": "baisse"
+        }
+      ],
+      "valeurs_cles": [
+        "La période 2019-2023 montre une réduction plus importante pour la CO2 par rapport aux autres gaz.",
+        "Les émissions liées au charbon ont ralenti.",
+        "La sortie du charbon pour la production d'énergie a été repoussée."
+      ],
+      "resume": "Cette figure compare, par type de gaz à effet de serre, le rythme de réduction des émissions sur différentes périodes. Le graphique en barres montre une tendance générale à la baisse des émissions pour tous les gaz et toutes les périodes, mais avec des rythmes variables. Les émissions de CO₂ montrent une réduction significative, particulièrement durant la période 2019-2023. Il est également noté que le rythme de réduction des émissions de CO₂ s'est ralenti en 2024, et que la sortie du charbon pour la production d'énergie a été repoussée."
+    }
+  },
+  {
+    "source_page": 85,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_85.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.1i – Comparaison des trajectoires de réduction d'émissions par combustible fossile depuis 2010 et échéances de sortie de ces énergies fossiles",
+      "type_graphique": "graphique en courbes",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions liées aux produits pétroliers",
+          "tendance": "décroissante"
+        },
+        {
+          "label": "Émissions liées au gaz fossile",
+          "tendance": "décroissante"
+        },
+        {
+          "label": "Émissions liées au charbon",
+          "tendance": "décroissante"
+        }
+      ],
+      "valeurs_cles": [
+        "Sortie du charbon (vers 2025)",
+        "Sortie du pétrole (vers 2045)",
+        "Sortie du gaz fossile (vers 2050)"
+      ],
+      "resume": "La figure montre la comparaison des trajectoires de réduction des émissions de gaz à effet de serre liées aux produits pétroliers, au gaz fossile et au charbon depuis 2010. Elle indique également les dates prévisionnelles de sortie de ces différentes énergies fossiles, respectivement vers 2045 pour le pétrole et 2050 pour le gaz fossile. Les émissions de charbon montrent une nette réduction et une sortie anticipée, tandis que le pétrole et le gaz fossile connaissent également des baisses mais avec des échéances de sortie plus tardives. Les émissions liées au charbon sont déjà significativement réduites par rapport à 2010."
+    }
+  },
+  {
+    "source_page": 90,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_90.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.1j - Évolution du puits de carbone du secteur UTCATF depuis 1990",
+      "type_graphique": "graphique linéaire",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Puits de carbone UTCATF",
+          "tendance": "stable à partir de 2018, avec une légère hausse en 2023."
+        }
+      ],
+      "valeurs_cles": [
+        "Stabilisation à partir de 2018 autour de -36 Mt éqCO₂",
+        "Estimation 2023: -37 Mt éqCO₂"
+      ],
+      "resume": "Le graphique montre l'évolution du puits de carbone du secteur UTCATF depuis 1990. Après une baisse significative autour de 2014, le puits de carbone s'est stabilisé à partir de 2018, se situant autour de -36 Mt éqCO₂ par an. L'estimation pour 2023 est de -37 Mt éqCO₂."
+    }
+  },
+  {
+    "source_page": 90,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_90.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Figure 2.1k - Évolution des composantes du puits de carbone du secteur UTCATF depuis 2010",
+      "type_graphique": "graphique en barres empilées",
+      "axes": {
+        "x": {
+          "label": "Année",
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Produits bois",
+          "tendance": "variable, globalement décroissante."
+        },
+        {
+          "label": "Bois mort en forêt",
+          "tendance": "croissante à partir de 2015, puis relativement stable."
+        },
+        {
+          "label": "Forêt - tous flux sauf bois mort",
+          "tendance": "principal contributeur, globalement décroissante."
+        },
+        {
+          "label": "Terres agricoles",
+          "tendance": "faible et variable."
+        },
+        {
+          "label": "Artificialisation",
+          "tendance": "faible et globalement stable."
+        },
+        {
+          "label": "Autres",
+          "tendance": "très faible et stable."
+        }
+      ],
+      "valeurs_cles": [
+        "Contribution majoritaire de 'Forêt - tous flux sauf bois mort'.",
+        "Augmentation de la contribution du 'Bois mort en forêt' à partir de 2015.",
+        "Diminution globale du puits de carbone au fil des années."
+      ],
+      "resume": "Ce graphique en barres empilées décompose les contributions au puits de carbone du secteur UTCATF entre 2010 et 2023. La majeure partie du puits est due à la catégorie 'Forêt - tous flux sauf bois mort', bien que cette contribution ait globalement diminué. La contribution du 'Bois mort en forêt' a augmenté à partir de 2015, compensant en partie la baisse des autres composantes. Les autres catégories (Produits bois, Terres agricoles, Artificialisation, Autres) ont des contributions plus faibles et variables."
+    }
+  },
+  {
+    "source_page": 91,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_91.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Écarts aux tranches annuelles indicatives du deuxième budget carbone de la SNBC 2 (2019-2023) et au budget cumulé sur la période pour les émissions brutes",
+      "type_graphique": "graphique combiné (barres et ligne)",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions",
+          "tendance": "baissière"
+        },
+        {
+          "label": "Tranche annuelle indicative",
+          "tendance": "baissière"
+        }
+      ],
+      "valeurs_cles": [
+        "2019: Émissions 436, Tranche 445",
+        "2020: Émissions 396, Tranche 439",
+        "2021: Émissions 420, Tranche 426",
+        "2022: Émissions 403, Tranche 413",
+        "2023: Émissions 376, Tranche 400"
+      ],
+      "resume": "Le graphique compare les émissions brutes annuelles aux tranches annuelles indicatives du deuxième budget carbone de la SNBC 2 pour la période 2019-2023. Les émissions brutes sont systématiquement inférieures aux tranches indicatives, indiquant une marge. La tendance générale est à la baisse pour les émissions et les tranches."
+    }
+  },
+  {
+    "source_page": 91,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_91.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "2º BUDGET CARBONE (2019-2023)",
+      "type_graphique": "graphique en barres",
+      "axes": {
+        "x": {
+          "label": "2º budget carbone\n2019-2023",
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Émissions",
+          "tendance": "stable"
+        },
+        {
+          "label": "Tranche annuelle indicative",
+          "tendance": "stable"
+        }
+      ],
+      "valeurs_cles": [
+        "Émissions cumulées : 2 031 Mt éqCO₂",
+        "Tranche annuelle indicative cumulée : 2 123 Mt éqCO₂"
+      ],
+      "resume": "Ce graphique représente les émissions cumulées et la tranche annuelle indicative cumulée pour le deuxième budget carbone sur la période 2019-2023. Il montre une marge entre la tranche indicative et les émissions réelles."
+    }
+  },
+  {
+    "source_page": 93,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_93.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.2c - Émissions et trajectoires SNBC 2 indicatives par secteur",
+      "type_graphique": "Graphique en ligne",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO₂",
+          "unite": "Mt éqCO₂"
+        }
+      },
+      "series": [
+        {
+          "label": "Transports",
+          "tendance": "Diminution puis stabilisation"
+        },
+        {
+          "label": "Agriculture",
+          "tendance": "Diminution progressive"
+        },
+        {
+          "label": "Industrie",
+          "tendance": "Diminution puis stabilisation"
+        },
+        {
+          "label": "Bâtiments",
+          "tendance": "Diminution progressive"
+        },
+        {
+          "label": "Énergie",
+          "tendance": "Diminution progressive"
+        },
+        {
+          "label": "Déchets",
+          "tendance": "Stabilisation"
+        }
+      ],
+      "valeurs_cles": [
+        "Trajectoire SNBC 2",
+        "Émissions"
+      ],
+      "resume": "Ce graphique présente les émissions de gaz à effet de serre et les trajectoires indicatives de la SNBC 2 pour plusieurs secteurs (Transports, Agriculture, Industrie, Bâtiments, Énergie, Déchets) entre 2018 et 2024. Globalement, la plupart des secteurs montrent une tendance à la diminution des émissions, bien que certaines trajectoires divergent de la SNBC 2, notamment pour les Transports et l'Industrie où les émissions semblent stagner ou diminuer moins rapidement que prévu. Le secteur des Déchets est le seul à présenter une trajectoire relativement stable."
+    }
+  },
+  {
+    "source_page": 94,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_94.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Écarts moyens au 2º budget carbone par gaz à effet de serre",
+      "type_graphique": "diagramme en barres",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": "Mt éqCO₂/an"
+        }
+      },
+      "series": [
+        {
+          "label": "2º budget",
+          "tendance": null
+        },
+        {
+          "label": "Émissions",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "CO₂ : 306 Mt éqCO₂/an (budget)",
+        "CO₂ : 84 Mt éqCO₂/an (émissions moyennes 2019-2023)"
+      ],
+      "resume": "Ce diagramme compare les émissions de gaz à effet de serre (représentées par des barres sombres) par rapport au 2e budget carbone indicatif (représenté par des barres claires) pour différents gaz. On observe que pour le CO₂, les émissions dépassent largement le budget, alors que pour le CH₄, le N₂O et les gaz fluorés, les émissions sont inférieures au budget."
+    }
+  },
+  {
+    "source_page": 94,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_94.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Puits de carbone et budget carbone de la SNBC 2 pour le secteur UTCATF",
+      "type_graphique": "diagramme en courbes",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": "Mt éqCO₂/an"
+        }
+      },
+      "series": [
+        {
+          "label": "Bilan UTCATF (avec bois mort)",
+          "tendance": "stable puis légère baisse"
+        },
+        {
+          "label": "Bilan UTCATF (sans bois mort)",
+          "tendance": "hausse"
+        },
+        {
+          "label": "Trajectoire SNBC 2 ajustée (sans bois mort)",
+          "tendance": "hausse"
+        }
+      ],
+      "valeurs_cles": [
+        "Bilan UTCATF (avec bois mort) autour de -20 Mt éqCO₂/an en 2022",
+        "Bilan UTCATF (sans bois mort) autour de -25 Mt éqCO₂/an en 2022",
+        "Trajectoire SNBC 2 ajustée (sans bois mort) atteignant environ -10 Mt éqCO₂/an en 2024"
+      ],
+      "resume": "Ce graphique illustre l'évolution des puits de carbone pour le secteur UTCATF, comparant le bilan réel (avec et sans bois mort) avec la trajectoire ajustée de la SNBC 2. On observe que le bilan sans bois mort est inférieur à celui avec bois mort, et que les deux bilans sont inférieurs à la trajectoire prévisionnelle, indiquant un dépassement potentiel du budget si la tendance se maintient."
+    }
+  },
+  {
+    "source_page": 95,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_95.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.2f – Émissions et trajectoires 2030 des trois versions de SNBC",
+      "type_graphique": "graphique en courbes",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Émissions",
+          "unite": "Mt éqCO2"
+        }
+      },
+      "series": [
+        {
+          "label": "SNBC1",
+          "tendance": "descendante"
+        },
+        {
+          "label": "SNBC2",
+          "tendance": "descendante"
+        },
+        {
+          "label": "SNBC3p",
+          "tendance": "descendante"
+        },
+        {
+          "label": "Émissions historiques",
+          "tendance": "descendante"
+        }
+      ],
+      "valeurs_cles": [
+        "Les émissions historiques ont diminué entre 2011 et 2023.",
+        "Les trois trajectoires SNBC montrent une tendance à la baisse des émissions jusqu'en 2030.",
+        "La trajectoire SNBC2 semble être la plus ambitieuse en termes de réduction des émissions."
+      ],
+      "resume": "Le graphique présente les émissions historiques de gaz à effet de serre et trois trajectoires de réduction (SNBC1, SNBC2, SNBC3p) jusqu'en 2030. Toutes les courbes montrent une tendance à la baisse des émissions, mais avec des rythmes de réduction différents. Les émissions historiques ont connu une diminution sur la période observée."
+    }
+  },
+  {
+    "source_page": 96,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_96.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Tableau 2.2a - Alignement des réductions d'émissions avec les objectifs 2030",
+      "type_graphique": "tableau",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": null,
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "2023-2024*",
+          "tendance": null
+        },
+        {
+          "label": "SNBC-2",
+          "tendance": null
+        },
+        {
+          "label": "PROJET SNBC-3",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "TRANSPORTS : -1,5 (2023-2024) ; -4,2 (SNBC-2) ; -5,7 (PROJET SNBC-3)",
+        "AGRICULTURE : -0,4 (2023-2024) ; -0,7 (SNBC-2) ; -1,1 (PROJET SNBC-3)",
+        "INDUSTRIE : -0,9 (2023-2024) ; -1,2 (SNBC-2) ; -3,0 (PROJET SNBC-3)",
+        "BÂTIMENTS : -0,4 (2023-2024) ; -1,9 (SNBC-2) ; -3,7 (PROJET SNBC-3)",
+        "ÉNERGIE : -3,8 (2023-2024) ; -0,3 (SNBC-2) ; -1,0 (PROJET SNBC-3)",
+        "DÉCHETS : -0,05 (2023-2024) ; -0,7 (SNBC-2) ; -1,4 (PROJET SNBC-3)",
+        "TOTAL BRUT : -6,9 (2023-2024) ; -9,0 (SNBC-2) ; -16 (PROJET SNBC-3)",
+        "UTCATF : -3,4 (2023-2024) ; -1,5 (SNBC-2) ; +3,0 (PROJET SNBC-3)"
+      ],
+      "resume": "Ce tableau présente l'alignement des réductions d'émissions par secteur avec les objectifs fixés pour les périodes 2023-2024, SNBC-2 et projet SNBC-3. Les données sont exprimées en Mt éqCO2/an. On observe des tendances de réduction variables selon les secteurs et les périodes, avec des objectifs plus ambitieux pour le projet SNBC-3 dans la plupart des cas. Une note spécifique indique que les déchets et l'UTCATF ont des données de 2022-2023 et que pour ces derniers, il est prévu une augmentation d'émissions dans le projet SNBC-3."
+    }
+  },
+  {
+    "source_page": 96,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_96.png",
+    "figure_index_in_image": 1,
+    "analysis": {
+      "titre": "Figure 2.2g - Réductions d'émissions prévues dans la SNBC 2",
+      "type_graphique": "diagramme en barres empilées",
+      "axes": {
+        "x": {
+          "label": "Secteur",
+          "unite": null
+        },
+        "y": {
+          "label": "Émissions (en Mt éqCO2)",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "Réductions observées sur la période 2019-2023",
+          "tendance": null
+        },
+        {
+          "label": "Réductions prévues sur la période 2024-2030",
+          "tendance": null
+        },
+        {
+          "label": "Réductions prévues sur la période 2031-2050",
+          "tendance": null
+        },
+        {
+          "label": "Émissions résiduelles en 2050",
+          "tendance": null
+        }
+      ],
+      "valeurs_cles": [
+        "Les transports montrent la plus grande part de réductions d'émissions, tant observées que prévues.",
+        "L'agriculture et l'industrie montrent également des réductions importantes, mais avec une part d'émissions résiduelles plus élevée.",
+        "Les bâtiments et l'énergie montrent des réductions moindres par rapport à d'autres secteurs, avec des émissions résiduelles significatives.",
+        "Les déchets ont la plus faible proportion de réductions d'émissions."
+      ],
+      "resume": "Cette figure illustre les réductions d'émissions prévues par secteur dans le cadre de la SNBC 2. Chaque barre représente un secteur (Transports, Agriculture, Industrie, Bâtiments, Énergie, Déchets), et elle est segmentée pour montrer les réductions d'émissions observées sur la période 2019-2023, les réductions prévues pour 2024-2030 et 2031-2050, ainsi que les émissions résiduelles en 2050. Les transports se distinguent par leur potentiel de réduction le plus élevé. La note précise qu'il n'y a pas de baisse des émissions des déchets sur la période 2019-2023."
+    }
+  },
+  {
+    "source_page": 99,
+    "image_path": "RAG\\Dataset\\rag_figures\\HCC_RA_2025-18.07_web.pdf\\page_99.png",
+    "figure_index_in_image": 0,
+    "analysis": {
+      "titre": "Figure 2.3a – Évolution, au cours des éditions d'inventaire, de l'estimation du secteur UTCATF",
+      "type_graphique": "courbes",
+      "axes": {
+        "x": {
+          "label": null,
+          "unite": null
+        },
+        "y": {
+          "label": "Mt éqCO2",
+          "unite": null
+        }
+      },
+      "series": [
+        {
+          "label": "2015",
+          "tendance": "augmentation puis diminution"
+        },
+        {
+          "label": "2016",
+          "tendance": "stagnation puis augmentation"
+        },
+        {
+          "label": "2017",
+          "tendance": "augmentation puis diminution"
+        },
+        {
+          "label": "2018",
+          "tendance": "augmentation puis diminution"
+        },
+        {
+          "label": "2019",
+          "tendance": "stagnation puis diminution"
+        },
+        {
+          "label": "2021",
+          "tendance": "augmentation puis diminution"
+        },
+        {
+          "label": "2022",
+          "tendance": "forte augmentation"
+        },
+        {
+          "label": "2023",
+          "tendance": "diminution puis augmentation"
+        },
+        {
+          "label": "2024",
+          "tendance": "augmentation puis diminution"
+        },
+        {
+          "label": "2025",
+          "tendance": "diminution puis stagnation"
+        }
+      ],
+      "valeurs_cles": [
+        "2000",
+        "2002",
+        "2004",
+        "2006",
+        "2008",
+        "2010",
+        "2012",
+        "2014",
+        "2016",
+        "2018",
+        "2020",
+        "2022"
+      ],
+      "resume": "Le graphique montre l'évolution des estimations du secteur UTCATF sur plusieurs éditions d'inventaire, de 2000 à 2022. Les différentes courbes représentent les estimations pour des années d'inventaire spécifiques, allant de 2015 à 2025. On observe des tendances variables, avec des périodes d'augmentation, de diminution et de stagnation des estimations au fil du temps. Certaines années, comme 2022, montrent une forte augmentation, tandis que d'autres années, comme 2016 ou 2025, présentent une stagnation ou une diminution après une phase d'augmentation."
+    }
+  }
+]
