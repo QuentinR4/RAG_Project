@@ -1,2 +1,13 @@
 # Fichiers de cache et index vectoriel
 RAG/cache/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
