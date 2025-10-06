@@ -265,9 +265,3 @@ def load_figure_analyses(summary_path: str) -> List[Document]:
         docs.append(Document(page_content=content, metadata=metadata))
 
     return docs
-# -------------------------------
-# Exécution
-# -------------------------------
-if __name__ == "__main__":
-    save_identified_pages(PDF_PATH, OUTPUT_DIR, MIN_DRAWING_ELEMENTS)
-    analyze_saved_pages_with_gemini(OUTPUT_DIR)
