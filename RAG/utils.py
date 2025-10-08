@@ -115,3 +115,4 @@ def pipeline_question(question):
     print(f"Question posée : {question}")
     response = ask_question(chain, question)
     print(f"Réponse générée :\n{response}")
+    return response
