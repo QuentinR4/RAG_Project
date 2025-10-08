@@ -3,3 +3,8 @@ RAG/cache/
 # Résultats de tests générés (CSV horodatés)
 RAG/Test/test_rag_results*.csv
 test_rag_results_*.csv
+# Python bytecode
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
