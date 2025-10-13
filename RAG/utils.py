@@ -79,15 +79,7 @@ def ask_question(chain, question):
     llm, retriever = chain
     # Recherche contextuelle avec le retriever
     docs = retriever.invoke(question)
-    context = "\n".join([doc.page_content for doc in docs])
-    # Écriture dans un CSV
-    with open("temp.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(["index", "text"])  # en-têtes
-
-        for i, doc in enumerate(docs):
-            writer.writerow([i, doc.page_content])
-            
+    context = "\n".join([doc.page_content for doc in docs])            
     prompt = f"Contexte:\n{context}\n\nQuestion: {question}\n Si le texte contient des abréviations, explique-les à partir du contexte ou de tes connaissances générales. Réponds en français et de manière claire."
     response = llm.generate_content(prompt)
     return response.text
