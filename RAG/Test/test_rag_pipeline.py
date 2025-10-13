@@ -3,8 +3,7 @@ import sys
 import pytest
 import pandas as pd
 import csv
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer, util
 
 # Ensure project root is on sys.path so 'RAG' package is importable when running the test directly
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -20,15 +19,30 @@ TS = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 RESULT_FILE = os.path.join(os.path.dirname(__file__), f"test_rag_results_{TS}.csv")
 
 
-def text_similarity(a: str, b: str) -> float:
-    """Compute TF-IDF cosine similarity between two texts. Returns 0.0 on failure."""
+
+# Charger le modèle pour embeddings (CPU)
+model = SentenceTransformer("embaas/sentence-transformers-multilingual-e5-base", device="cpu")
+
+def text_similarity_embeddings(a: str, b: str) -> float:
+    """
+    Calcule la similarité cosine entre deux textes en utilisant des embeddings.
+    Plus sémantique que TF-IDF, adapté aux textes français.
+
+    a, b : str - textes à comparer
+    return : float - similarité cosine entre 0 et 1
+    """
     if not a or not b:
         return 0.0
     try:
-        vect = TfidfVectorizer().fit([a, b])
-        tfidf = vect.transform([a, b])
-        return float(cosine_similarity(tfidf[0:1], tfidf[1:2])[0][0])
-    except Exception:
+        # Encoder les deux textes
+        emb_a = model.encode(a, convert_to_tensor=True)
+        emb_b = model.encode(b, convert_to_tensor=True)
+        
+        # Calculer la similarité cosine
+        score = util.cos_sim(emb_a, emb_b)
+        return float(score.item())
+    except Exception as e:
+        print("Erreur dans text_similarity_embeddings:", e)
         return 0.0
 
 
@@ -63,7 +77,7 @@ def test_rag_response_minimal(row):
 
     # Compute similarity with expected answer if present and append result
     expected = row.get("expected_answer", "")
-    sim = text_similarity(response, expected)
+    sim = text_similarity_embeddings(response, expected)
     try:
         _append_result(row, response, sim)
     except Exception as e:

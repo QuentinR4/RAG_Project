@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # Pour forcer la recréation du cache, passe force_reindex=True
     #main(doc_path="./RAG/Dataset/HCC_RA_2025-18.07_web.pdf", force_reindex=True)
     #question = "De combien doit être l'objectif de rénovations performante de LLS par an  ?"
-    question = "Comment évolue la température quotidienne de la mer ?"
+    question = "De combien sont les émissions de gaz à effet de serre du Royaume-Uni en 2024 ?"
 
     main(question)
 
