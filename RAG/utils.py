@@ -4,8 +4,8 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 import os
 import google.generativeai as genai
-from .abbreviation import pipeline_abreviations
-from .figures import save_identified_pages, analyze_saved_pages_with_gemini, load_figure_analyses
+from abbreviation import pipeline_abreviations
+from figures import save_identified_pages, analyze_saved_pages_with_gemini, load_figure_analyses
 from langchain.schema import Document
 
     
@@ -79,7 +79,7 @@ def ask_question(chain, question):
     # Recherche contextuelle avec le retriever
     docs = retriever.invoke(question)
     context = "\n".join([doc.page_content for doc in docs])            
-    prompt = f"Contexte:\n{context}\n\nQuestion: {question}\n Si le texte contient des abréviations, explique-les à partir du contexte ou de tes connaissances générales. Réponds en français et de manière claire."
+    prompt = f"Contexte:\n{context}\n\nQuestion: {question}\n Si le texte contient des abréviations, explique-les à partir du contexte ou de tes connaissances générales. Réponds en français et de manière claire. N'ajoute pas les définitions des abréviations dans ta réponse."
     response = llm.generate_content(prompt)
     return response.text
 
@@ -153,7 +153,6 @@ def pipeline_question(question, k: int = 20):
 
     print(f"Question posée : {question}")
     response = ask_question(chain, question)
-    print(f"Réponse générée :\n{response}")
     return response
 
 

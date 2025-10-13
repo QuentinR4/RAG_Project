@@ -47,11 +47,6 @@ def text_similarity_embeddings(a: str, b: str) -> float:
 
 
 def _append_result(row: dict, generated: str, similarity: float):
-    """Write a result row to the timestamped RESULT_FILE in UTF-8 with semicolon delimiter.
-
-    The file is created on first write; subsequent calls append to the same run file.
-    """
-    # If the file does not exist yet, we'll create it and write the header. Always append.
     write_header = not os.path.exists(RESULT_FILE)
     keys = list(row.keys()) + ["generated_answer", "similarity"]
     with open(RESULT_FILE, "a", encoding="utf-8", newline="") as f:
