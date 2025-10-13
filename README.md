@@ -1,5 +1,3 @@
-Projet en cours de développement
-
 # RAG PDF + Figures (FR)
 
 Ce projet met en place un petit pipeline RAG (Retrieval-Augmented Generation) sur des PDF :
