@@ -10,3 +10,6 @@ __pycache__/
 *.pyo
 #Fichiers log
 RAG/log/
+# Generated images and analysis from PDF figures (do not track)
+RAG/Dataset/rag_figures/
+RAG/Dataset/rag_figures/**
