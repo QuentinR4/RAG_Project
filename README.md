@@ -1,11 +1,13 @@
-# RAG PDF + Figures (FR)
+# RAG PDF + Figures + Abréviations (FR)
 
-Ce projet met en place un petit pipeline RAG (Retrieval-Augmented Generation) sur des PDF :
+Ce projet implémente un pipeline RAG (Retrieval-Augmented Generation) pour interroger des rapports PDF en français en combinant texte, figures et abréviations:
 
-- extraction du texte d'un PDF (PyMuPDF) et découpage en chunks (LangChain),
-- extraction et analyse des figures/pages images via Gemini Vision,
-- conversion des analyses de figures en `Document` LangChain et indexation dans FAISS,
-- interrogation via un LLM (Gemini).
+- Extraction du texte (PyMuPDF) et découpage en chunks (LangChain).
+- Détection des pages contenant des figures puis analyse automatique des figures avec Gemini Vision (retour JSON structuré, rate limit ≈ 15 req/min), conversion en `Document` et indexation.
+- Enrichissement des chunks avec les définitions d’abréviations détectées dans le PDF (ex: « gaz à effet de serre (GES) »). Les abréviations sont extraites puis leurs définitions sont injectées dans le texte pour améliorer la compréhension et la recherche.
+- Indexation de l’ensemble (texte + figures + abréviations enrichies) dans FAISS puis interrogation via un LLM (Gemini) avec contexte récupéré.
+- CLI simple dans `RAG/main.py` pour indexer un ou plusieurs PDF, poser une ou plusieurs questions, ou faire les deux.
+- Tests Pytest avec un CSV d’évaluation et génération d’un fichier de résultats horodaté à chaque exécution.
 
 ## Fichiers importants
 - `RAG/main.py` — orchestrateur (indexation ou interrogation).
@@ -19,6 +21,10 @@ FAISS sérialise des données via pickle. Charger un index local nécessite `all
 
 ## Modèle Gemini
 Par défaut les scripts utilisent `gemini-2.5-flash-lite`. Si ton SDK ne supporte pas ce modèle, mets à jour `google-generativeai` ou modifie le nom du modèle dans `RAG/utils.py` et `RAG/figures.py`.
+
+## Données générées et cache
+- L’index FAISS est sauvegardé dans `RAG/cache/faiss_index`.
+- Les images des pages de figures et le résumé JSON sont produits dans `RAG/Dataset/rag_figures/` (ignoré par Git, non versionné).
 
 ## Utilisation (CLI)
 
