@@ -7,7 +7,6 @@ import google.generativeai as genai
 from .abbreviation import pipeline_abreviations
 from .figures import save_identified_pages, analyze_saved_pages_with_gemini, load_figure_analyses
 from langchain.schema import Document
-import csv
 
     
 # Fonction pour charger un PDF

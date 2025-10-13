@@ -1,11 +1,9 @@
-from urllib import response
 from utils import (
     pipeline_add_new_document,
     pipeline_question
 )
 import logging
 import time
-from langchain_community.vectorstores import FAISS
 
 # Configuration du logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
