@@ -7,8 +7,7 @@ import re
 import google.generativeai as genai
 from langchain_core.documents import Document
 import time
-import logging
-
+from tqdm import tqdm
 # -------------------------------
 # Configuration
 # -------------------------------
@@ -64,7 +63,7 @@ def save_identified_pages(pdf_path: str, out_dir: str, min_elements: int):
         if "figure" not in page_text:
             continue
 
-        print(f"✅ Page {page_num}: Figure potentielle détectée. Sauvegarde de la page entière...")
+        #print(f"✅ Page {page_num}: Figure potentielle détectée. Sauvegarde de la page entière...")
 
         # 3. Extraire la page entière en tant qu'image et la sauvegarder
         try:
@@ -75,7 +74,7 @@ def save_identified_pages(pdf_path: str, out_dir: str, min_elements: int):
             output_path = os.path.join(out_dir, output_filename)
             
             pix.save(output_path)
-            print(f"  -> Page sauvegardée : {output_path}")
+            #print(f"  -> Page sauvegardée : {output_path}")
             saved_pages_count += 1
 
         except Exception as e:
@@ -86,8 +85,6 @@ def save_identified_pages(pdf_path: str, out_dir: str, min_elements: int):
     print("-" * 20)
     print("\nRésumé de la sauvegarde :")
     print(f"{saved_pages_count} pages ont été sauvegardées dans le dossier '{out_dir}'.")
-    print("--- Fin de la sauvegarde ---")
-
 
 def analyze_saved_pages_with_gemini(
     images_dir: str = OUTPUT_DIR,
@@ -135,7 +132,7 @@ def analyze_saved_pages_with_gemini(
     # Rate limiting: maximum 15 requests per minute -> minimum interval between calls
     min_interval = 60.0 / 15.0  # 4.0 seconds
     last_api_call = 0.0
-    for img in image_files:
+    for img in tqdm(image_files, desc="Analyse des images", unit="image"):
         try:
             page_num = _extract_page_num_from_filename(img.stem)
 
@@ -166,7 +163,7 @@ def analyze_saved_pages_with_gemini(
             elapsed = now - last_api_call
             if elapsed < min_interval:
                 wait_for = min_interval - elapsed
-                logging.info(f"Rate limit: waiting {wait_for:.2f}s before calling Gemini for {img.name}")
+                #logging.info(f"Rate limit: waiting {wait_for:.2f}s before calling Gemini for {img.name}")
                 time.sleep(wait_for)
 
             response = model.generate_content([
@@ -177,7 +174,6 @@ def analyze_saved_pages_with_gemini(
 
             raw = (response.text or "").strip()
             clean = raw.replace("```json", "").replace("```", "").strip()
-            print(clean)
             parsed = json.loads(clean)
             # Normalisation des différentes formes possibles
             if isinstance(parsed, dict) and "figures" in parsed and isinstance(parsed["figures"], list):
@@ -196,9 +192,10 @@ def analyze_saved_pages_with_gemini(
                     "figure_index_in_image": idx,
                     "analysis": fig,
                 })
-            print(f"  -> OK: {img.name} ({len(figures)} figure(s))")
+            #tqdm.write(f"  -> OK: {img.name} ({len(figures)} figure(s))")
+            #print(f"  -> OK: {img.name} ({len(figures)} figure(s))")
         except Exception as e:
-            print(f"  -> Échec: {img.name}: {e}")
+            tqdm.write(f"  -> Échec: {img.name}: {e}")
             continue
 
     if save_summary_path:

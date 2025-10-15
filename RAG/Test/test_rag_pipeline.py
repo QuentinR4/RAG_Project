@@ -6,9 +6,9 @@ import csv
 from sentence_transformers import SentenceTransformer, util
 
 # Ensure project root is on sys.path so 'RAG' package is importable when running the test directly
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-if ROOT not in sys.path:
-    sys.path.insert(0, ROOT)
+#ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+#if ROOT not in sys.path:
+#    sys.path.insert(0, ROOT)
 
 from RAG.utils import pipeline_question
 EVAL_FILE = os.path.join(os.path.dirname(__file__), "test_rag.csv")

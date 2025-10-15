@@ -1,10 +1,11 @@
 import re
 import time
-import csv
 import json
 import PyPDF2
 import google.generativeai as genai
 import os
+from tqdm import tqdm
+
 # ----------- 1. Extraction depuis le PDF -----------
 
 def extraire_premiere_phrase_abreviations(pdf_path):
@@ -77,23 +78,27 @@ def traiter_en_lots_json(abrev_phrases, model, taille_lot=10, delai=4, sortie_js
 
     resultat_dict = {}
 
-    for i in range(0, len(abrev_phrases), taille_lot):
-        lot = abrev_phrases[i:i+taille_lot]
-        print(f"\n🚀 Traitement du lot {i//taille_lot + 1} / {(len(abrev_phrases) // taille_lot) + 1} "
-              f"({len(lot)} abréviations)")
+    # Nombre total de lots
+    total_lots = (len(abrev_phrases) + taille_lot - 1) // taille_lot
+    
+    # Barre de progression pour les lots
+    with tqdm(total=total_lots, desc="Traitement des lots", unit="lot") as pbar:
+        for i in range(0, len(abrev_phrases), taille_lot):
+            lot = abrev_phrases[i:i+taille_lot]
+            lot_index = i // taille_lot + 1
 
-        reponses = demander_definitions_groupe(lot, model)
+            # Appel du modèle pour ce lot
+            reponses = demander_definitions_groupe(lot, model)
 
-        for j, (abbr, phrase) in enumerate(lot):
-            definition = None
-            if j < len(reponses):
-                definition = reponses[j].get("définition", None)
-            resultat_dict[abbr] = definition
-            print(f"  ✅ {abbr} → {definition if definition else 'null'}")
+            for j, (abbr, phrase) in enumerate(tqdm(lot, desc=f"Lot {lot_index}", leave=False)):
+                definition = None
+                if j < len(reponses):
+                    definition = reponses[j].get("définition", None)
+                resultat_dict[abbr] = definition
 
-        # pause entre lots pour respecter le rate limit
-        time.sleep(delai)
-
+            # pause entre lots pour respecter le rate limit
+            time.sleep(delai)
+            pbar.update(1)
     # Sauvegarder le JSON
     with open(sortie_json, "w", encoding="utf-8") as f:
         json.dump(resultat_dict, f, ensure_ascii=False, indent=2)
@@ -110,7 +115,7 @@ def pipeline_abreviations(pdf_path):
 
     chemin_pdf = pdf_path
     abrev_phrases = extraire_premiere_phrase_abreviations(chemin_pdf)
-
+    print("-------Gestion des abréviations-------")
     print(f"Nombre total d’abréviations trouvées : {len(abrev_phrases)}")
 
     resultat_dict=traiter_en_lots_json(abrev_phrases, model, taille_lot=10, delai=4, sortie_json="./RAG/log/definitions.json")
